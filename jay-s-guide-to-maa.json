@@ -5,7 +5,7 @@
 				"json": "JaysGuideToMaa",
 				"abbreviation": "JGM",
 				"full": "Jay's Guide to Maa",
-				"version": "1.3",
+				"version": "1.31",
 				"authors": [
 					"Jayant Ahuja"
 				],
@@ -13,7 +13,7 @@
 			}
 		],
 		"dateAdded": 1763318002,
-		"dateLastModified": 1763318002
+		"dateLastModified": 1763319086
 	},
 	"race": [
 		{
@@ -129,7 +129,9 @@
 					"type": "entries"
 				}
 			],
-			"fluff": [
+			"hasFluff": true,
+			"hasFluffImage": true,
+			"Fluff": [
 				{
 					"type": "entries",
 					"entries": [
@@ -148,6 +150,8 @@
 						"They serve the order and justice with loyalty, but are always a step away to unleash the chaos burning inside their core if it helps the needy. However, such dangerous devotion to altruism often leads to them poking hornet's nests in the worst way possible. But such daring and hardheaded fortitude has also led many such Maarut to perform supernatural feats. Due to such core principles and internal nature, many Maarut lean towards Chaotic Good."
 					]
 				},
+			],
+			"FluffImage": [
 				{
 					"type": "image",
 					"href": {
