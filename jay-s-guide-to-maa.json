@@ -19,8 +19,6 @@
 		{
 			"name": "Maarut",
 			"source": "JaysGuideToMaa",
-			"hasFluff": true,
-			"hasFluffImage": true,
 			"lineage": "VRGR",
 			"size": [
 				"M"
