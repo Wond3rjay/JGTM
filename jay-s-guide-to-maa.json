@@ -129,42 +129,40 @@
 					"type": "entries"
 				}
 			],
-			"fluff": [
-				{
-					"type": "entries",
-					"entries": [
-						"Wild at heart, wild of nature, the simian cousins of Humans, Maarut are deceptive in appearance. For people oblivious of their existence, they might appear unrestrained agents of chaos. But there is a method to their madness, often backed by a font of intelligence and or wisdom. They are fond of art, music, and revelry but also take pride in performing their responsibilities and duties. Wit, intellectualism, and wisdom draws them into conversation, but they also typically good at hiding their wariness underneath a cloak of amicability."
-					]
-				},
-				{
-					"name": "Nature",
-					"entries": [
-						"They serve the order and justice with loyalty, but are always a step away to unleash the chaos burning inside their core if it helps the needy. However, such dangerous devotion to altruism often leads to them poking hornet's nests in the worst way possible. But such daring and hardheaded fortitude has also led many such Maarut to perform supernatural feats. Due to such core principles and internal nature, many Maarut lean towards Chaotic Good."
-					]
-				},
-				{
-					"name": "Life on Maa",
-					"entries": [
-						"They serve the order and justice with loyalty, but are always a step away to unleash the chaos burning inside their core if it helps the needy. However, such dangerous devotion to altruism often leads to them poking hornet's nests in the worst way possible. But such daring and hardheaded fortitude has also led many such Maarut to perform supernatural feats. Due to such core principles and internal nature, many Maarut lean towards Chaotic Good."
-					]
-				},
-				{
-					"name": "Maarut Names",
-					"entries": [
-						"Feminine Names. Anjana, Rooma, Sugri, Taara, Makari, Neela, Saari, Joon, Sushena, Dariyaa."
+			"fluff": {
+				"entries": [
+						"Wild at heart, wild of nature, the simian cousins of Humans, Maarut are deceptive in appearance. For people oblivious of their existence, they might appear unrestrained agents of chaos. But there is a method to their madness, often backed by a font of intelligence and or wisdom. They are fond of art, music, and revelry but also take pride in performing their responsibilities and duties. Wit, intellectualism, and wisdom draws them into conversation, but they also typically good at hiding their wariness underneath a cloak of amicability.",
+						{
+							"name": "Nature",
+							"entries": [
+								"They serve the order and justice with loyalty, but are always a step away to unleash the chaos burning inside their core if it helps the needy. However, such dangerous devotion to altruism often leads to them poking hornet's nests in the worst way possible. But such daring and hardheaded fortitude has also led many such Maarut to perform supernatural feats. Due to such core principles and internal nature, many Maarut lean towards Chaotic Good."
+							]
+						},
+						{
+							"name": "Life on Maa",
+							"entries": [
+								"They serve the order and justice with loyalty, but are always a step away to unleash the chaos burning inside their core if it helps the needy. However, such dangerous devotion to altruism often leads to them poking hornet's nests in the worst way possible. But such daring and hardheaded fortitude has also led many such Maarut to perform supernatural feats. Due to such core principles and internal nature, many Maarut lean towards Chaotic Good."
+							]
+						},
+						{
+							"name": "Maarut Names",
+							"entries": [
+								"Feminine Names. Anjana, Rooma, Sugri, Taara, Makari, Neela, Saari, Joon, Sushena, Dariyaa."
+							],
+							"entries": [
+								"Masculine Names. Angad, Baali, Greev, Feeki, Nall, Neel, Kesari, Soon, Jabari, Baakoo."
+							]
+						}
 					],
-					"entries": [
-						"Masculine Names. Angad, Baali, Greev, Feeki, Nall, Neel, Kesari, Soon, Jabari, Baakoo."
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/Wond3rjay/JGTM/img/lineages/maarut.png"
+							}
+						}
 					]
-				}
-			],
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"url": "https://raw.githubusercontent.com/Wond3rjay/JGTM/img/lineages/maarut.png"
-					}
 				}
 			]
 		}
