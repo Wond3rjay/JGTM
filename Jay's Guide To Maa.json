@@ -1,0 +1,1977 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "JaysGuideToMaa",
+				"abbreviation": "JGM",
+				"full": "Jay's Guide to Maa",
+				"version": "1.3",
+				"authors": [
+					"Jayant Ahuja"
+				],
+				"color": "7702c5"
+			}
+		],
+		"dateAdded": 1763318002,
+		"dateLastModified": 1763318002
+	},
+	"race": [
+		{
+			"name": "Maarut",
+			"source": "JaysGuideToMaa",
+			"lineage": "VRGR",
+			"size": [
+				"M"
+			],
+			"speed": 35,
+			"climb": 25,
+			"age": {
+				"mature": 18,
+				"max": 120
+			},
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"athletics",
+							"acrobatics",
+							"stealth",
+							"sleight of hand"
+						],
+					"count": 2
+					}
+				}
+			],
+			"toolProficiencies": [
+				{
+					"choose": {
+						"from": [
+						"anyMusicalInstrument",
+						"anyGamingSet"
+						],
+						"count": 1
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 2
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Maarut mature at the age of eighteen (18) years old and have a natural average lifespan of 120 years."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Maarut gravitate towards good. They have immense respect for the law until they find corruption or cannibalization of the system which may propel them to stir chaos to restore a benevolent order."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Your size is Medium. Maarut generally grow up to 4 to 6.5 feet or roughly 120 cm to 200 cm"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Third Appendage",
+					"entries": [
+						"You have a long tail that can be nimble, strong, and sturdy. With your tail, you may:",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "Grab and Hurl",
+									"entry": "Pick up a blunt object (up to 10 pounds) within reach (5 ft) and then throw it as a ranged attack as a bonus action towards a target (range 30ft/60ft) to deal 1d6 bludgeoning damage on hit. Or pick up a blunt object (up to 30 pounds) within reach and make a ranged attack as an attack action at a target (range 15ft/30ft) to deal 1d10 bludgeoning damage on hit. You may use Dexterity modifier for Grab and Throw attack rolls."
+								},
+								{
+									"type": "item",
+									"name": "Grappling Tail",
+									"entry": "As an attack action, you may use your free tail to attempt a grapple a creature, large size or smaller, that is behind you. A creature grappled by your tail stays behind your back, and thus any attack against that creature made by you must be made with disadvantage. The creature may break grapple as an action by contesting an athletics or acrobatics check against your athletics check on their turn. You may grapple another creature within range using a free hand as stated on PHB p195 while having a creature grappled by your tail."
+								},
+								{
+									"type": "item",
+									"name": "Constrict and Trip",
+									"entry": "As an attack action, make a grapple check with your free tail against a target, large size or smaller, within melee range. If you succeed, the target falls prone and takes bludgeoning damage equals to your strength modifier. If you fail, the next attack against you gains advantage."
+								},
+								{
+									"type": "item",
+									"name": "Nimble Yank",
+									"entry": "When located within 5 feet of a medium or large stationary object that your tail can wrap around, such as a pillar or tree that weighs more than you, you may use the said object to slingshot yourself up to 10 feet past it as a reaction after an attack is made against you."
+								}
+							],
+							"style": "list-hang-notitle"
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Primal Instincts",
+					"entries": [
+						"You gain proficiency with two of the following skills of your choice: {@skill Athletics}, {@skill Acrobatics}, {@skill Stealth}, and {@skill Sleight of Hand}."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and two other languages of your choice."
+					],
+					"type": "entries"
+				}
+			],
+			"fluff": [
+				{
+					"type": "entries",
+					"entries": [
+						"Wild at heart, wild of nature, the simian cousins of Humans, Maarut are deceptive in appearance. For people oblivious of their existence, they might appear unrestrained agents of chaos. But there is a method to their madness, often backed by a font of intelligence and or wisdom. They are fond of art, music, and revelry but also take pride in performing their responsibilities and duties. Wit, intellectualism, and wisdom draws them into conversation, but they also typically good at hiding their wariness underneath a cloak of amicability."
+					]
+				},
+				{
+					"name": "Nature",
+					"entries": [
+						"They serve the order and justice with loyalty, but are always a step away to unleash the chaos burning inside their core if it helps the needy. However, such dangerous devotion to altruism often leads to them poking hornet's nests in the worst way possible. But such daring and hardheaded fortitude has also led many such Maarut to perform supernatural feats. Due to such core principles and internal nature, many Maarut lean towards Chaotic Good."
+					]
+				},
+				{
+					"name": "Life on Maa",
+					"entries": [
+						"They serve the order and justice with loyalty, but are always a step away to unleash the chaos burning inside their core if it helps the needy. However, such dangerous devotion to altruism often leads to them poking hornet's nests in the worst way possible. But such daring and hardheaded fortitude has also led many such Maarut to perform supernatural feats. Due to such core principles and internal nature, many Maarut lean towards Chaotic Good."
+					]
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/Wond3rjay/JGTM/img/lineages/maarut.png"
+					}
+				}
+			]
+		}
+	]
+	"spell": [
+		{
+			"name": "Arcane Vigor",
+			"source": "JaysGuideToMaa",
+			"page": "NA",
+			"level": 2,
+			"school": "A",
+			"time": [
+						{
+							"number": 1,
+							"unit": "bonus"
+						}
+					],
+			"range": {
+					"type": "point",
+					"distance": {
+								"type": "self"
+								}
+					},
+			"components": {
+							"v": true,
+							"s": true
+						},
+			"duration": [
+							{
+								"type": "instant"
+							}
+						],
+			"entries": [
+						"You tap into your life force to heal yourself. Roll one or two of your unexpended {@variantrule Hit Point Dice|PHB}, and regain a number of {@variantrule Hit Points|PHB} equal to the roll's total plus your spellcasting ability modifier. Those dice are then expended."
+					],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"The number of unexpended Hit Dice you can roll increases by one for each spell slot level above 2."
+					]
+				}
+			],	
+			"miscTags": [
+				"HL"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Bard",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "College of Lore",
+							"shortName": "Lore",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Wizard",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Abjurer",
+							"shortName": "Abjurer",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
+						}
+					}
+				]
+			},
+				"feats": [
+					{
+						"name": "Adept of the White Robes",
+						"source": "DSotDQ"
+					}
+				]
+		},
+		{
+			"name": "Befuddlement",
+			"source": "JaysGuideToMaa",
+			"page": "NA",
+			"srd52": true,
+			"basicRules": true,
+			"level": 8,
+			"school": "E",
+			"time": [
+				{
+				"number": 1,
+				"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+				"type": "feet",
+				"amount": 150
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a key ring with no keys"
+			},
+			"duration": [
+				{
+				"type": "instant"
+				}
+			],
+			"entries": [
+			"You blast the mind of a creature that you can see within range. The target makes an Intelligence saving throw.",
+			"On a failed save, the target takes {@damage 10d12} Psychic damage and can't cast spells or take the {@action Magic|PHB} action. At the end of every 30 days, the target repeats the save, ending the effect on a success. The effect can also be ended by the {@spell Greater Restoration|PHB}, {@spell Heal|PHB}, or {@spell Wish|PHB} spell.",
+			"On a successful save, the target takes half as much damage only."
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"intelligence"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+			],
+				"fromSubclass": [
+					{
+					"class": {
+						"name": "Cleric",
+						"source": "PHB"
+					},
+						"subclass": {
+							"name": "Arcana Domain",
+							"shortName": "Arcana",
+							"source": "SCAG"
+						}
+					},
+					{
+						"class": {
+						"name": "Cleric",
+						"source": "PHB"
+						},
+						"subclass": {
+						"name": "Arcana Domain",
+						"shortName": "Arcana",
+						"source": "SCAG"
+						}
+					}
+			]
+			}
+		},
+		{
+			"name": "Drawmij's Instant Summons",
+			"source": "JaysGuideToMaa",
+			"page": "NA",
+			"srd52": "Instant Summons",
+			"basicRules": true,
+			"level": 6,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a sapphire worth 1,000+ GP",
+					"cost": 100000
+				}
+			},
+			"duration": [
+				{
+					"type": "permanent",
+					"ends": [
+						"dispel"
+					]
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You touch the sapphire used in the casting and an object weighing 10 pounds or less whose longest dimension is 6 feet or less. The spell leaves an {@condition Invisible|PHB} mark on that object and invisibly inscribes the object's name on the sapphire. Each time you cast this spell, you must use a different sapphire.",
+				"Thereafter, you can take a {@action Magic|PHB} action to speak the object's name and crush the sapphire. The object instantly appears in your hand regardless of physical or planar distances, and the spell ends.",
+				"If another creature is holding or carrying the object, crushing the sapphire doesn't transport it, but instead you learn who that creature is and where that creature is currently located."
+			],
+			"miscTags": [
+				"OBJ"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcana Domain",
+							"shortName": "Arcana",
+							"source": "SCAG"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcana Domain",
+							"shortName": "Arcana",
+							"source": "SCAG"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Elementalism",
+			"source": "JaysGuideToMaa",
+			"page": "NA",
+			"srd52": true,
+			"basicRules": true,
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You exert control over the elements, creating one of the following effects within range.",
+				{
+					"type": "entries",
+					"name": "Beckon Air",
+					"entries": [
+						"You create a breeze strong enough to ripple cloth, stir dust, rustle leaves, and close open doors and shutters, all in a 5-foot {@variantrule Cube [Area of Effect]|PHB|Cube}. Doors and shutters being held open by someone or something aren't affected."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Beckon Earth",
+					"entries": [
+						"You create a thin shroud of dust or sand that covers surfaces in a 5-foot-square area, or you cause a single word to appear in your handwriting in a patch of dirt or sand."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Beckon Fire",
+					"entries": [
+						"You create a thin cloud of harmless embers and colored, scented smoke in a 5-foot {@variantrule Cube [Area of Effect]|PHB|Cube}. You choose the color and scent, and the embers can light candles, torches, or lamps in that area. The smoke's scent lingers for 1 minute."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Beckon Water",
+					"entries": [
+						"You create a spray of cool mist that lightly dampens creatures and objects in a 5-foot {@variantrule Cube [Area of Effect]|PHB|Cube}. Alternatively, you create 1 cup of clean water either in an open container or on a surface, and the water evaporates in 1 minute."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sculpt Element",
+					"entries": [
+						"You cause dirt, sand, fire, smoke, mist, or water that can fit in a 1-foot {@variantrule Cube [Area of Effect]|PHB|Cube} to assume a crude shape (such as that of a creature) for 1 hour."
+					]
+				}
+			],
+			"miscTags": [
+				"OBJ"
+			],
+			"areaTags": [
+				"C",
+				"Q"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Bard",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "College of Lore",
+							"shortName": "Lore",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Nature Domain",
+							"shortName": "Nature",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcana Domain",
+							"shortName": "Arcana",
+							"source": "SCAG"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Strength Domain (PSA)",
+							"shortName": "Strength (PSA)",
+							"source": "PSA"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Monk",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Warrior of the Elements",
+							"shortName": "Elements",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Nature Domain",
+							"shortName": "Nature",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcana Domain",
+							"shortName": "Arcana",
+							"source": "SCAG"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Strength Domain (PSA)",
+							"shortName": "Strength (PSA)",
+							"source": "PSA"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Circle of the Land",
+							"shortName": "Land",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf",
+					"source": "PHB"
+				},
+				{
+					"name": "Elf (Kaladesh; Vahadar)",
+					"source": "PSK",
+					"baseName": "Elf (Kaladesh)",
+					"baseSource": "PSK"
+				},
+				{
+					"name": "Half-Elf (Variant; Moon Elf or Sun Elf Descent)",
+					"source": "SCAG",
+					"baseName": "Half-Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Kobold",
+					"source": "MPMM"
+				},
+				{
+					"name": "Merfolk (Ixalan; Blue)",
+					"source": "PSX",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				},
+				{
+					"name": "Merfolk (Ixalan; Green)",
+					"source": "PSX",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				},
+				{
+					"name": "Merfolk (Zendikar; Emeria Creed)",
+					"source": "PSZ",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				},
+				{
+					"name": "Merfolk (Zendikar; Ula Creed)",
+					"source": "PSZ",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				}
+			],
+			"optionalfeatures": [
+				{
+					"name": "Druidic Warrior",
+					"source": "TCE",
+					"featureType": [
+						"FS:R"
+					]
+				},
+				{
+					"name": "Pact of the Tome",
+					"source": "PHB",
+					"featureType": [
+						"PB"
+					]
+				},
+				{
+					"name": "Pact of the Tome",
+					"source": "PHB",
+					"featureType": [
+						"EI"
+					]
+				}
+			],
+			"feats": [
+				{
+					"name": "Aberrant Dragonmark",
+					"source": "ERLW"
+				},
+				{
+					"name": "Druidic Warrior",
+					"source": "PHB"
+				},
+				{
+					"name": "Magic Initiate",
+					"source": "PHB"
+				},
+				{
+					"name": "Initiate of High Sorcery",
+					"source": "DSotDQ"
+				},
+				{
+					"name": "Magic Initiate",
+					"source": "PHB"
+				},
+				{
+					"name": "Wood Elf Magic",
+					"source": "XGE"
+				}
+			]
+		},
+		{
+			"name": "Fount of Moonlight",
+			"source": "JaysGuideToMaa",
+			"page": "NA",
+			"level": 4,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"A cool light wreathes your body for the duration, emitting {@variantrule Bright Light|PHB} in a 20-foot radius and {@variantrule Dim Light|PHB} for an additional 20 feet.",
+				"Until the spell ends, you have {@variantrule Resistance|PHB} to Radiant damage, and your melee attacks deal an extra {@damage 2d6} Radiant damage on a hit.",
+				"In addition, immediately after you take damage from a creature you can see within 60 feet of yourself, you can take a {@variantrule Reaction|PHB} to force the creature to make a Constitution saving throw. On a failed save, the creature has the {@condition Blinded|PHB} condition until the end of your next turn."
+			],
+			"damageResist": [
+				"radiant"
+			],
+			"damageInflict": [
+				"radiant"
+			],
+			"conditionInflict": [
+				"blinded"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"AAD",
+				"LGT",
+				"SGT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Circle of the Moon",
+							"shortName": "Moon",
+							"source": "PHB"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Jallarzi's Storm of Radiance",
+			"source": "JaysGuideToMaa",
+			"page": "NA",
+			"level": 5,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a pinch of phosphorus"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You unleash a storm of flashing light and raging thunder in a 10-foot-radius, 40-foot-high {@variantrule Cylinder [Area of Effect]|PHB|Cylinder} centered on a point you can see within range. While in this area, creatures have the {@condition Blinded|PHB} and {@condition Deafened|PHB} conditions, and they can't cast spells with a Verbal component.",
+				"When the storm appears, each creature in it makes a Constitution saving throw, taking {@damage 2d10} Radiant damage and {@damage 2d10} Thunder damage on a failed save or half as much damage on a successful one. A creature also makes this save when it enters the spell's area for the first time on a turn or ends its turn there. A creature makes this save only once per turn."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"The Radiant and Thunder damage increase by {@scaledamage 2d10|5-9|1d10} for each spell slot level above 5."
+					]
+				}
+			],
+			"damageInflict": [
+				"radiant",
+				"thunder"
+			],
+			"conditionInflict": [
+				"blinded",
+				"deafened"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"Y"
+			],
+			"hasFluffImages": true,
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Wizard",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Evoker",
+							"shortName": "Evoker",
+							"source": "PHB"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Power Word Fortify",
+			"source": "JaysGuideToMaa",
+			"page": "NA",
+			"level": 7,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You fortify up to six creatures you can see within range. The spell bestows 120 {@variantrule Temporary Hit Points|PHB}, which you divide among the spell's recipients."
+			],
+			"miscTags": [
+				"SGT",
+				"THP"
+			],
+			"areaTags": [
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Shining Smite",
+			"source": "JaysGuideToMaa",
+			"page": "NA",
+			"srd52": true,
+			"basicRules": true,
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus",
+					"condition": "which you take immediately after hitting a creature with a Melee weapon or an {@variantrule Unarmed Strike|PHB}"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"The target hit by the strike takes an extra {@damage 2d6} Radiant damage from the attack. Until the spell ends, the target sheds {@variantrule Bright Light|PHB} in a 5-foot radius, attack rolls against it have {@variantrule Advantage|PHB}, and it can't benefit from the {@condition Invisible|PHB} condition."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"The damage increases by {@scaledamage 2d6|2-9|1d6} for each spell slot level above 2."
+					]
+				}
+			],
+			"damageInflict": [
+				"radiant"
+			],
+			"miscTags": [
+				"AAD",
+				"ADV",
+				"LGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Artificer",
+							"source": "TCE"
+						},
+						"subclass": {
+							"name": "Battle Smith",
+							"shortName": "Battle Smith",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "The Hexblade",
+							"shortName": "Hexblade",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "The Hexblade",
+							"shortName": "Hexblade",
+							"source": "XGE"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Tiefling (Zariel)",
+					"source": "MTF",
+					"baseName": "Tiefling",
+					"baseSource": "PHB"
+				}
+			],
+			"feats": [
+				{
+					"name": "Adept of the Red Robes",
+					"source": "DSotDQ"
+				}
+			]
+		},
+		{
+			"name": "Sorcerous Burst",
+			"source": "JaysGuideToMaa",
+			"page": "NA",
+			"srd52": true,
+			"basicRules": true,
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You cast sorcerous energy at one creature or object within range. Make a ranged attack roll against the target. On a hit, the target takes {@damage 1d8} damage of a type you choose: Acid, Cold, Fire, Lightning, Poison, Psychic, or Thunder.",
+				"If you roll an 8 on a {@dice d8} for this spell, you can roll another {@dice d8}, and add it to the damage. When you cast this spell, the maximum number of these d8s you can add to the spell's damage equals your spellcasting ability modifier."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Cantrip Upgrade",
+					"entries": [
+						"The damage increases by {@damage 1d8} when you reach levels 5 ({@damage 2d8}), 11 ({@damage 3d8}), and 17 ({@damage 4d8})."
+					]
+				}
+			],
+			"scalingLevelDice": {
+				"label": "damage",
+				"scaling": {
+					"1": "1d8",
+					"5": "2d8",
+					"11": "3d8",
+					"17": "4d8"
+				}
+			},
+			"damageInflict": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"poison",
+				"psychic",
+				"thunder"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"miscTags": [
+				"OBJ",
+				"SCL"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Kobold",
+					"source": "MPMM"
+				}
+			],
+			"optionalfeatures": [
+				{
+					"name": "Pact of the Tome",
+					"source": "PHB",
+					"featureType": [
+						"PB"
+					]
+				},
+				{
+					"name": "Pact of the Tome",
+					"source": "PHB",
+					"featureType": [
+						"EI"
+					]
+				}
+			],
+			"feats": [
+				{
+					"name": "Aberrant Dragonmark",
+					"source": "ERLW"
+				},
+				{
+					"name": "Magic Initiate",
+					"source": "PHB"
+				},
+				{
+					"name": "Spell Sniper",
+					"source": "PHB"
+				}
+			]
+		},
+		{
+			"name": "Starry Wisp",
+			"source": "JaysGuideToMaa",
+			"page": "NA",
+			"srd52": true,
+			"basicRules": true,
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You launch a mote of light at one creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes {@damage 1d8} Radiant damage, and until the end of your next turn, it emits {@variantrule Dim Light|PHB} in a 10-foot radius and can't benefit from the {@condition Invisible|PHB} condition."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Cantrip Upgrade",
+					"entries": [
+						"The damage increases by {@damage 1d8} when you reach levels 5 ({@damage 2d8}), 11 ({@damage 3d8}), and 17 ({@damage 4d8})."
+					]
+				}
+			],
+			"scalingLevelDice": {
+				"label": "Radiant damage",
+				"scaling": {
+					"1": "1d8",
+					"5": "2d8",
+					"11": "3d8",
+					"17": "4d8"
+				}
+			},
+			"damageInflict": [
+				"radiant"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"miscTags": [
+				"LGT",
+				"OBJ",
+				"SCL"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Bard",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "College of Lore",
+							"shortName": "Lore",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Nature Domain",
+							"shortName": "Nature",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Strength Domain (PSA)",
+							"shortName": "Strength (PSA)",
+							"source": "PSA"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Circle of the Moon",
+							"shortName": "Moon",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Nature Domain",
+							"shortName": "Nature",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Strength Domain (PSA)",
+							"shortName": "Strength (PSA)",
+							"source": "PSA"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Circle of the Land",
+							"shortName": "Land",
+							"source": "PHB"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Elf (Kaladesh; Vahadar)",
+					"source": "PSK",
+					"baseName": "Elf (Kaladesh)",
+					"baseSource": "PSK"
+				},
+				{
+					"name": "Merfolk (Ixalan; Green)",
+					"source": "PSX",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				},
+				{
+					"name": "Merfolk (Zendikar; Cosi Creed)",
+					"source": "PSZ",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				},
+				{
+					"name": "Merfolk (Zendikar; Emeria Creed)",
+					"source": "PSZ",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				}
+			],
+			"optionalfeatures": [
+				{
+					"name": "Druidic Warrior",
+					"source": "TCE",
+					"featureType": [
+						"FS:R"
+					]
+				},
+				{
+					"name": "Pact of the Tome",
+					"source": "PHB",
+					"featureType": [
+						"PB"
+					]
+				},
+				{
+					"name": "Pact of the Tome",
+					"source": "PHB",
+					"featureType": [
+						"EI"
+					]
+				}
+			],
+			"feats": [
+				{
+					"name": "Druidic Warrior",
+					"source": "PHB"
+				},
+				{
+					"name": "Magic Initiate",
+					"source": "PHB"
+				},
+				{
+					"name": "Magic Initiate",
+					"source": "PHB"
+				},
+				{
+					"name": "Spell Sniper",
+					"source": "PHB"
+				},
+				{
+					"name": "Wood Elf Magic",
+					"source": "XGE"
+				}
+			]
+		},
+		{
+			"name": "Tasha's Bubbling Cauldron",
+			"source": "JaysGuideToMaa",
+			"page": "NA",
+			"level": 6,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a gilded ladle worth 500 + GP"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					}
+				}
+			],
+			"entries": [
+				"You conjure a claw-footed cauldron filled with bubbling liquid. The cauldron appears in an unoccupied space on the ground within 5 feet of you and lasts for the duration. The cauldron can't be moved and disappears when the spell ends, along with the bubbling liquid inside it.",
+				"The liquid in the cauldron duplicates the properties of a Common or an Uncommon potion of your choice (such as a {@item Potion of Healing|XDMG}). As a {@variantrule Bonus Action|PHB}, you or an ally can reach into the cauldron and withdraw one potion of that kind. The potion is contained in a vial that disappears when the potion is consumed. The cauldron can produce a number of these potions equal to your spellcasting ability modifier (minimum 1). When the last of these potions is withdrawn from the cauldron, the cauldron disappears, and the spell ends.",
+				"Potions obtained from the cauldron that aren't consumed disappear when you cast this spell again."
+			],
+			"miscTags": [
+				"HL",
+				"UBA"
+			],
+			"hasFluffImages": true,
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcana Domain",
+							"shortName": "Arcana",
+							"source": "SCAG"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcana Domain",
+							"shortName": "Arcana",
+							"source": "SCAG"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Yolande's Regal Presence",
+			"source": "JaysGuideToMaa",
+			"page": "NA",
+			"level": 5,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "emanation",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a miniature tiara"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You surround yourself with unearthly majesty in a 10-foot {@variantrule Emanation [Area of Effect]|PHB|Emanation}. Whenever the {@variantrule Emanation [Area of Effect]|PHB|Emanation} enters the space of a creature you can see and whenever a creature you can see enters the {@variantrule Emanation [Area of Effect]|PHB|Emanation} or ends its turn there, you can force that creature to make a Wisdom saving throw. On a failed save, the target takes {@damage 4d6} Psychic damage and has the {@condition Prone|PHB} condition, and you can push it up to 10 feet away. On a successful save, the target takes half as much damage only. A creature makes this save only once per turn."
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"miscTags": [
+				"FMV",
+				"SGT"
+			],
+			"areaTags": [
+				"S"
+			],
+			"hasFluffImages": true,
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Oath of Glory",
+							"shortName": "Glory",
+							"source": "PHB"
+						}
+					}
+				]
+			}
+		}
+	],
+	"item": [
+		{
+			"name": "Blood Drinker",
+			"source": "JaysGuideToMaa",
+			"page": "NA",
+			"baseItem": "sickle|PHB",
+			"type": "M",
+			"rarity": "very rare",
+			"reqAttune": "by a cleric or warlock",
+			"reqAttuneTags": [
+				{
+					"class": "cleric"
+				},
+				{
+					"class": "warlock"
+				}
+			],
+			"weight": 2,
+			"weaponCategory": "simple",
+			"property": [
+				"L"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"bonusWeapon": "+2",
+			"bonusSpellAttack": "+2",
+			"bonusSpellSaveDc": "+2",
+			"focus": [
+				"Cleric",
+				"Warlock"
+			],
+			"entries": [
+				"Kaal Raatri's Champion's Weapon. The Blood Drinker is material manifestation of the divine sickle wielded by Goddess Kaalraatri, The Mother Death. The Blood Drinker, therefore, can be attuned by the anointed champion of Goddess Kaalraatri. Attuning to Blood Drinker also manifest proficiency with a sickle as well. The weapon enhances attack rolls and damage rolls with +2 and melee attacks made by Blood Drinker does extra {@h}7 (@damage 2d6} Radiant or {@h}7 (@damage 2d6} Necrotic Damage, whichever the wielder may choose. If the target is a demon, the additional damage is doubled.",
+				"The sickle can also be used as a spell focus and provides +2 bonus to spell attack rolls and the saving throw DCs of all of your spells. Moreover, if the spell casted using the sickle as focus does radian or necrotic damage, the spell deals additional {@h}7 (@damage 2d6} damage of the same kind.",
+				"On DM's discretion, Blood Drinker may achieve Exalted Status, transforming into exalted Blood Drinker weapon.",
+				"Additionally, when you score a critical hit with this dagger, the target must succeed on a Wisdom saving throw against your Spellcasting DC. On failure, the target can not heal until the end of your next turn. On a success, the target is immune to this effect for 24 hours."
+			]
+		},
+		{
+			"name": "Eyes of the Owl",
+			"source": "JaysGuideToMaa",
+			"tier": "minor",
+			"rarity": "common",
+			"weight": 1,
+			"value": 2000,
+			"wondrous": true,
+			"entries": [
+				"These Crystal lenses fit over the eyes. While wearing them, you can see much better than normal out to a range of 1 foot. You have advantage on Investigation checks that rely on sight while searching an area or studying an object within that range."
+			],
+				"fluff": {
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/HuzDoom.png"
+							}
+						}
+					]
+				}
+		},
+		{
+			"name": "Kashaandhra's Amulet of Appearance",
+			"source": "JaysGuideToMaa",
+			"rarity": "rare",
+			"wondrous": true,
+			"weight": 0.1,
+			"value": 250000,
+			"entries": [
+				"This amulet enhances and glamourizes your appearence. Even if you have permanent scars, marks, or if you are wounded, you always appear to be at your best appearance. Your armor, weapons, and other equipment always shine as if just polished. Additionally, you're immune to the {@condition Charmned} condition."
+			],
+				"fluff": {
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/HuzDoom.png"
+							}
+						}
+					]
+				}
+		},
+
+		{
+			"name": "Potion of Restoration",
+			"source": "JaysGuideToMaa",
+			"page": "NA",
+			"type": "P",
+			"weight": 2,
+			"rarity": "Legendary",
+			"entries": [
+				"When you drink this potion, you gain all the benefits you gain as if at the completion of a long rest. The potion appears to be stark red fluid in color that creates bright swirling tendrils on shaking the bottle that dissipate momentarily."
+			]
+		},
+		{
+			"name": "Arrow, Dark Iron",
+			"type": "A",
+			"rarity": "rare",
+			"value": 300,
+			"weight": 1,
+			"source": "JaysGuideToMaa",
+			"page": "NA",
+			"entries": [
+				"{@bold Subtype}: Ammo (Normal)",
+				"{@bold Kit}: {@item Woodcarver's Tools}, {@item Smith's Tools}, along with access to a smelter, 20 lb. of dark iron and sufficient wood for 20 arrows. - {@bold DC}: 18",
+				"Dark Iron is particularly dense and hard. A dark iron arrow has the armor piercing property (-1 AC), but deal half damage against creature that have natural, or non-metal armor.",
+				"Once a dark iron arrow pierces a metallic armor, it becomes unusable."
+			]
+		},
+		{
+			"name": "Arrow, Flight",
+			"type": "A",
+			"rarity": "common",
+			"value": 15,
+			"weight": 0.3,
+			"source": "JaysGuideToMaa",
+			"page": "NA",
+			"entries": [
+				"{@bold Subtype}: Ammo (Normal)",
+				"{@bold Kit}: {@item Woodcarver's Tools}",
+				"Flight arrows have thin shafts and light fletching. When fired from a bow, the normal and long range is increase by 40 ft.; however, attack rolls for targets within 30 ft. are made with disadvantage."
+			]
+		},
+		{
+			"name": "Arrow, Hummerhead Blunt",
+			"type": "A",
+			"rarity": "common",
+			"value": 5,
+			"weight": 1,
+			"source": "JaysGuideToMaa",
+			"page": "NA",
+			"entries": [
+				"{@bold Subtype}: Ammo (Normal)",
+				"{@bold Kit}: {@item Woodcarver's Tools}",
+				"The hummerhead arrows arrow are specially designed to deal non-lethal bludgeoning damage to its target. These arrows do 1 die less damage (eg. 1d6 drops to 1d4) but on a critical hit these arrows apply the stunned condition effect to the target until the start of the your next turn. Also, if a creature falls to 0Hp from one of these arrows it does not roll for death saving throws and is instead {@Condition Unconcious}."
+			]
+		},
+		{
+			"name": "Arrow, Snaring",
+			"type": "A",
+			"rarity": "uncommon",
+			"value": 40,
+			"weight": 0.5,
+			"source": "JaysGuideToMaa",
+			"page": "NA",
+			"entries": [
+				"{@bold Subtype}: Ammo (Normal)",
+				"{@bold Kit}: {@item Woodcarver's Tools}, {@item Tinker's tools}- {@bold DC}: 16",
+				"The snaring arrows arrow are specially designed to restrain its target. The arrow heads is a tiny spring mechanism that contains a concisely packed trap that springs out right before the arrow hits the target. Instead of contesting against target's AC, the target gets to roll acrobatics check against the attack roll to determine if it gets restrained or not. on a critical hit, the target is {@Condition Restrained} automatically. As the snaring arrows are heavier than usual, the normal and long range is reduced by two third of the original range (rounded down).",
+				"The snaring arrow is recoverable but requires a new net for every use."
+			]
+		},
+		{
+			"name": "Arrow, Injection",
+			"type": "A",
+			"rarity": "uncommon",
+			"value": 100,
+			"weight": 0.4,
+			"source": "JaysGuideToMaa",
+			"page": "NA",
+			"entries": [
+				"{@bold Subtype}: Ammo (Normal)",
+				"{@bold Kit}: {@item Woodcarver's Tools}, {@item Glassblower's tools}- {@bold DC}: 16",
+				"These arrow's heads are hollow and have storage equal to that of a vial. It contains a tiny mechanism similar to a syringe. Liquids held within never dry out, and are injected directly ino a creature struck, there the vial's effects are saved against with disadvantage. {@dc 14}",
+				"An injection arrow is destroyed after use."
+			]
+		},
+		{
+			"name": "Arrows, Blinding",
+			"type": "A",
+			"rarity": "uncommon",
+			"value": 600,
+			"weight": 1,
+			"source": "JaysGuideToMaa",
+			"page": "NA",
+			"entries": [
+				"{@bold Subtype}: Ammo (Alchemy)",
+				"{@bold Kit}: {@item Alchemist Supplies}, {@item Potter's Tools}, {@item Woodcarver's Tools}",
+				"{@bold Required Space(s)}: Alchemy Lab; {@bold DC}: 14",
+				"Blinding Arrows have a small clay pot with an opening inside, containing a reactive chemical. On hit, the chemical releases a bright flash, blinding the target if it fails a CON Save {@dc 13} until the start of your next turn.",
+				"A blinding arrow is destroyed upon use."
+			]
+		},
+		{
+			"name": "Arrows, Corkscrew",
+			"type": "A",
+			"rarity": "uncommon",
+			"value": 15,
+			"weight": 0.5,
+			"source": "JaysGuideToMaa",
+			"page": "NA",
+			"entries": [
+				"{@bold Kit}: {@item Woodcarver's Tools} - {@bold DC}: 20",
+				"Travels through water effectively than a normal arrow. It ignores the \"ranged weapon attacks underwater combat rules\" on page 198 of the PHB."
+			]
+		},
+		{
+			"name": "Arrows, Acid",
+			"type": "A",
+			"rarity": "Rare",
+			"weight": 0.5,
+			"source": "JaysGuideToMaa",
+			"page": "NA",
+			"entries": [
+				"{@bold Subtype}: Ammo (Magical)",
+				"{@bold Components Required)}: Artificer's Spell Slot for every 3 Arrows, powdered rhubarb leaf and an adder's stomach. {@bold DC}: 14 {@skill Arcana}",
+				"The arrow turns into a streak of acid mid-path. On a hit, the target takes {@h}4 {@damage 1d8} acid damage and the creature must make a successful {@dc 14} CON save or take another {@h}4 {@damage 1d8} acid damage on subsequent turn. on a miss the target only takes half of initial damage and no damage on the following turn.",
+				"The acid arrow is destroyed after use."
+			]
+		},
+		{
+			"name": "Arrows, Ice",
+			"type": "A",
+			"rarity": "Rare",
+			"weight": 0.5,
+			"source": "JaysGuideToMaa",
+			"page": "NA",
+			"entries": [
+				"{@bold Subtype}: Ammo (Magical)",
+				"{@bold Components Required)}: Artificer's Spell Slot for every 3 Arrows, water or ice. {@bold DC}: 14 {@skill Arcana}",
+				"The arrow turns into an ice shard mid-path. On a hit, the target takes 1d10 piercing damage and its speed reduces by 10 feet.",
+				"The ice arrow is destroyed after use."
+			]
+		},
+		{
+			"name": "Arrows, Explosive",
+			"type": "A",
+			"rarity": "Rare",
+			"weight": 0.5,
+			"source": "JaysGuideToMaa",
+			"page": "NA",
+			"entries": [
+				"{@bold Subtype}: Ammo (Magical)",
+				"{@bold Components Required)}: Artificer's Spell Slot for every 3 Arrows, sulfur and bat guamo. {@bold DC}: 14 {@skill Arcana}",
+				"On a hit, the explosive arrow bursts into a small pocket of explosion. The target takes additional  {@h}3 {@damage 1d6} force damage and must make a successful {@dc 14} DEX save or take another {@h}3 {@damage 1d6} fire damage.",
+				"The explosive arrow is destroyed after use."
+			]
+		},
+		{
+			"name": "Arrows, Necrotic",
+			"type": "A",
+			"rarity": "Rare",
+			"weight": 0.5,
+			"source": "JaysGuideToMaa",
+			"page": "NA",
+			"entries": [
+				"{@bold Subtype}: Ammo (Magical)",
+				"{@bold Components Required)}: Artificer's Spell Slot for every 3 Arrows, a small skull worth 5 gp, two square feet of dead remains. {@bold DC}: 14 {@skill Arcana}",
+				"The <em>necrotic arrow</em> has a skull fuming with necrotic energy for arrow head. On a hit, the arrow deals {@h}2 {@damage 1d4} bludgeoning damage and {@h}5 {@damage 1d10} necrotic damage. On a hit, the target must succeed {@dc 14} CON save or its Hit Points Maximum reduce by equivalent to the necrotic damage dealt.",
+				"The necrotic arrow is destroyed after use."
+			]
+		},
+		{
+			"name": "Arrows, Tormenting",
+			"type": "A",
+			"rarity": "Rare",
+			"weight": 0.5,
+			"source": "JaysGuideToMaa",
+			"page": "NA",
+			"entries": [
+				"{@bold Subtype}: Ammo (Magical)",
+				"{@bold Components Required)}: Artificer's Spell Slot for every 3 Arrows, a tiny humanoid replica poked by 5 pins and wood. {@bold DC}: 14 {@skill Arcana}",
+				"On a hit, the tormenting arrow transforms in a crown of lightning around target's head and deals additional {@h}3 {@damage 1d6} Psychic Damage. Additionally, the target must succeed {@dc 14} WIS save or suffers from tormenting thoughts and visions that makes it hard for him to concentrate. The target has disadvantage on following saving throws and concentration checks till the end of the archer's next turn.",
+				"The tormenting arrow is destroyed after use."
+			]
+		},
+		{
+			"name": "Arrows, Radiant",
+			"type": "A",
+			"rarity": "Rare",
+			"weight": 0.5,
+			"source": "JaysGuideToMaa",
+			"page": "NA",
+			"entries": [
+				"{@bold Subtype}: Ammo (Magical)",
+				"{@bold Components Required)}: Artificer's Spell Slot for every 3 Arrows, a holy symbol and holy water blessed by a cleric or a paladin in the name of their deity. {@bold DC}: 14 {@skill Arcana}",
+				"On a hit, the radiant arrow explodes in a burst of radiant energy and the target must succeed {@dc 14} WIS save or takes {@h}7 {@damage 2d6} Radiant Damage. On a successful save the target only takes half radiant damage. An undead has disadvantage on the saving throw.",
+				"The radiant arrow is destroyed after use."
+			]
+		},
+		{
+			"name": "Arrows, Lightning",
+			"type": "A",
+			"rarity": "Rare",
+			"weight": 0.5,
+			"source": "JaysGuideToMaa",
+			"page": "NA",
+			"entries": [
+				"{@bold Subtype}: Ammo (Magical)",
+				"{@bold Components Required)}: Artificer's Spell Slot for every 3 Arrows, a bit of fur and a rod of amber, crystal, or glass. {@bold DC}: 14 {@skill Arcana}",
+				"The arrow turns into a streak of lightning mid-path. On a hit, the target takes {@h}6 {@damage 1d12} lightning damage and anyone behind the target in the trajectory of the arrow within another 15 feet also takes the same amount of damage if the attack roll would hit them.",
+				"The lightning arrow is destroyed after use."
+			]
+		},
+		{
+			"name": "Arrows, Thunder",
+			"type": "A",
+			"rarity": "Rare",
+			"weight": 0.5,
+			"source": "JaysGuideToMaa",
+			"page": "NA",
+			"entries": [
+				"{@bold Subtype}: Ammo (Magical)",
+				"{@bold Components Required)}: Artificer's Spell Slot for every 3 Arrows, a bit of fur and a a chip of mica or a pinch of phosphorus. {@bold DC}: 14 {@skill Arcana}",
+				"Choose a point on the ground or an object in your bow's range, the thunder arrow when shot pointed upwards turn into a rumble of thundering sound and cascade at the chosen point. Each creature within 10 feet radius of the point must make a {@dc 14} CON Save. They take {@h}9 {@damage 2d8} thunder damage on a failed save or half damage if they succeed.",
+				"The thunder arrow is destroyed after use."
+			]
+		}
+	]
+}
