@@ -19,7 +19,6 @@
 		{
 			"name": "Maarut",
 			"source": "JaysGuideToMaa",
-			"lineage": "VRGR",
 			"size": [
 				"M"
 			],
@@ -113,6 +112,13 @@
 					"name": "Primal Instincts",
 					"entries": [
 						"You gain proficiency with two of the following skills of your choice: {@skill Athletics}, {@skill Acrobatics}, {@skill Stealth}, and {@skill Sleight of Hand}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Unexpected Talents",
+					"entries": [
+						"You gain proficiency in one {@item musical instrument|PHB} or one {@item gaming set|PHB}."
 					]
 				},
 				{
