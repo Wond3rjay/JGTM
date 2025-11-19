@@ -56,11 +56,7 @@
 			"languageProficiencies": [
 				{
 					"common" : true,
-					"choose" : {
-						"from": [
-						"anyStandard"
-						],
-						"count": 2
+					"anyStandard": 2
 					}
 				}
 			],
@@ -130,15 +126,8 @@
 					"type": "entries",
 					"name": "Unexpected Talents",
 					"entries": [
-						"You gain proficiency in one {@item musical instrument|PHB} or one {@item gaming set|PHB}."
+						"You gain proficiency in one {@language|PHB}. You also gain proficiency in one {@item musical instrument|PHB} or one {@item gaming set|PHB}."
 					]
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write Common and two other languages of your choice."
-					],
-					"type": "entries"
 				}
 			],
 			"fluff": {
