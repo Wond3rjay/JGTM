@@ -53,6 +53,12 @@
 					}
 				}
 			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 2
+				}
+			],
 			"entries": [
 				{
 					"name": "Age",
@@ -119,7 +125,7 @@
 					"type": "entries",
 					"name": "Unexpected Talents",
 					"entries": [
-						"You gain proficiency in one language. You also gain proficiency in one {@item musical instrument|PHB} or one {@item gaming set|PHB}."
+						"You gain proficiency in one additional language. You also gain proficiency in one {@item musical instrument|PHB} or one {@item gaming set|PHB}."
 					]
 				}
 			],
