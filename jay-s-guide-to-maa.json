@@ -19,6 +19,7 @@
 		{
 			"name": "Maarut",
 			"source": "JaysGuideToMaa",
+			"lineage": "VRGR",
 			"size": [
 				"M"
 			],
@@ -52,6 +53,17 @@
 					}
 				}
 			],
+			"languageProficiencies": [
+				{
+					"common" : true,
+					"choose" : {
+						"from": [
+						"anyStandard"
+						],
+						"count": 2
+					}
+				}
+			]
 			"entries": [
 				{
 					"name": "Age",
