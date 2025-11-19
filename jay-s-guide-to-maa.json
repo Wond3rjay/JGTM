@@ -55,8 +55,7 @@
 			],
 			"languageProficiencies": [
 				{
-					"common": true,
-					"anyStandard": 3
+					"common": true
 				}
 			],
 			"entries": [
