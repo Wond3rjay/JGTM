@@ -13,7 +13,7 @@
 			}
 		],
 		"dateAdded": 1763318002,
-		"dateLastModified": 1763319086
+		"dateLastModified": 1763558622
 	},
 	"race": [
 		{
@@ -56,7 +56,7 @@
 			"languageProficiencies": [
 				{
 					"common": true,
-					"anyStandard": 2
+					"anyStandard": 3
 				}
 			],
 			"entries": [
