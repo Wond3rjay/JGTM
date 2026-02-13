@@ -1855,7 +1855,7 @@
 			"entries": [
 				"{@bold Subtype}: Ammo (Normal)",
 				"{@bold Kit}: {@item Woodcarver's Tools}",
-				"The hummerhead arrows arrow are specially designed to deal non-lethal bludgeoning damage to its target. These arrows do 1 die less damage (eg. 1d6 drops to 1d4) but on a critical hit these arrows apply the stunned condition effect to the target until the start of the your next turn. Also, if a creature falls to 0Hp from one of these arrows it does not roll for death saving throws and is instead {@Condition Unconcious}."
+				"The hummerhead arrows arrow are specially designed to deal non-lethal bludgeoning damage to its target. These arrows do 1 die less damage (eg. 1d6 drops to 1d4) but on a critical hit these arrows apply the stunned condition effect to the target until the start of the your next turn. Also, if a creature falls to 0Hp from one of these arrows it does not roll for death saving throws and is instead {@condition Unconcious}."
 			]
 		},
 		{
@@ -1869,7 +1869,7 @@
 			"entries": [
 				"{@bold Subtype}: Ammo (Normal)",
 				"{@bold Kit}: {@item Woodcarver's Tools}, {@item Tinker's tools}- {@bold DC}: 16",
-				"The snaring arrows arrow are specially designed to restrain its target. The arrow heads is a tiny spring mechanism that contains a concisely packed trap that springs out right before the arrow hits the target. Instead of contesting against target's AC, the target gets to roll acrobatics check against the attack roll to determine if it gets restrained or not. on a critical hit, the target is {@Condition Restrained} automatically. As the snaring arrows are heavier than usual, the normal and long range is reduced by two third of the original range (rounded down).",
+				"The snaring arrows arrow are specially designed to restrain its target. The arrow heads is a tiny spring mechanism that contains a concisely packed trap that springs out right before the arrow hits the target. Instead of contesting against target's AC, the target gets to roll acrobatics check against the attack roll to determine if it gets restrained or not. On a critical hit, the target is {@condition Restrained} automatically. As the snaring arrows are heavier than usual, the normal and long range is reduced by two third of the original range (rounded down).",
 				"The snaring arrow is recoverable but requires a new net for every use."
 			]
 		},
