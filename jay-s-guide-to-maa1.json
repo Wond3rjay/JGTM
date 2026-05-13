@@ -5,15 +5,15 @@
 				"json": "JaysGuideToMaa",
 				"abbreviation": "JGM",
 				"full": "Jay's Guide to Maa",
-				"version": "2.0",
+				"version": "1.6",
 				"authors": [
-					"Jay Ahuja"
+					"Jayant Ahuja"
 				],
 				"color": "7702c5"
 			}
 		],
 		"dateAdded": 1763318002,
-		"dateLastModified": 1778661250
+		"dateLastModified": 1776792508059
 	},
 	"variantrule": [
 		{
@@ -1082,39 +1082,39 @@
 					"type": "list",
 					"items": [
 						"{@b Dao.}",
-						{
-							"type": "list",
-							"items": [
-								"{@b Flight.} You have a Fly Speed of 30 feet and can hover.",
-								"{@b Burrow.} You have a Burrow Speed of 20 feet through nonmagical, unworked earth and stone.",
-								"{@b Minor Wish} When you or an ally in your {@classFeature Aura of Protection|Paladin|PHB|6} fails an ability skill, attack, or saving throw, you can take a Reaction to make that roll a success instead."
-							]
-						},
+							{
+								"type": "list",
+								"items": [
+									"{@b Flight.} You have a Fly Speed of 30 feet and can hover.",
+									"{@b Burrow.} You have a Burrow Speed of 20 feet through nonmagical, unworked earth and stone.",
+									"{@b Minor Wish} When you or an ally in your {@classFeature Aura of Protection|Paladin|PHB|6} fails an ability skill, attack, or saving throw, you can take a Reaction to make that roll a success instead."
+								]
+							},
 						"{@b Djinni.}",
-						{
-							"type": "list",
-							"items": [
-								"{@b Flight.} You have a Fly Speed of 60 feet and can hover.",
-								"{@b Minor Wish} When you or an ally in your {@classFeature Aura of Protection|Paladin|PHB|6} fails an ability skill, attack, or saving throw, you can take a Reaction to make that roll a success instead."
-							]
-						},
+							{
+								"type": "list",
+								"items": [
+									"{@b Flight.} You have a Fly Speed of 60 feet and can hover.",
+									"{@b Minor Wish} When you or an ally in your {@classFeature Aura of Protection|Paladin|PHB|6} fails an ability skill, attack, or saving throw, you can take a Reaction to make that roll a success instead."
+								]
+							},
 						"{@b Efreeti.}",
-						{
-							"type": "list",
-							"items": [
-								"{@b Flight.} You have a Fly Speed of 60 feet and can hover.",
-								"{@b Minor Wish} When you or an ally in your {@classFeature Aura of Protection|Paladin|PHB|6} fails an ability skill, attack, or saving throw, you can take a Reaction to make that roll a success instead."
-							]
-						},
+							{
+								"type": "list",
+								"items": [
+									"{@b Flight.} You have a Fly Speed of 60 feet and can hover.",
+									"{@b Minor Wish} When you or an ally in your {@classFeature Aura of Protection|Paladin|PHB|6} fails an ability skill, attack, or saving throw, you can take a Reaction to make that roll a success instead."
+								]
+							},
 						"{@b Marid.}",
-						{
-							"type": "list",
-							"items": [
-								"{@b Flight.} You have a Fly Speed of 30 feet and can hover.",
-								"{@b Swim.} You have a Swim Speed of 30 feet and can walk on water.",
-								"{@b Minor Wish} When you or an ally in your {@classFeature Aura of Protection|Paladin|PHB|6} fails an ability skill, attack, or saving throw, you can take a Reaction to make that roll a success instead."
-							]
-						}
+							{
+								"type": "list",
+								"items": [
+									"{@b Flight.} You have a Fly Speed of 30 feet and can hover.",
+									"{@b Swim.} You have a Swim Speed of 30 feet and can walk on water.",
+									"{@b Minor Wish} When you or an ally in your {@classFeature Aura of Protection|Paladin|PHB|6} fails an ability skill, attack, or saving throw, you can take a Reaction to make that roll a success instead."
+								]
+							}
 					]
 				}
 			]
@@ -1981,10 +1981,10 @@
 								"wis",
 								"cha"
 							],
-							"weights": [
-								2,
-								1
-							]
+						"weights": [
+							2,
+							1
+						]
 						}
 					}
 				},
@@ -1999,11 +1999,11 @@
 								"wis",
 								"cha"
 							],
-							"weights": [
-								1,
-								1,
-								1
-							]
+						"weights": [
+							1,
+							1,
+							1
+						]
 						}
 					}
 				}
@@ -2026,7 +2026,7 @@
 							"stealth",
 							"sleight of hand"
 						],
-						"count": 2
+					"count": 2
 					}
 				}
 			],
@@ -2034,8 +2034,8 @@
 				{
 					"choose": {
 						"from": [
-							"anyMusicalInstrument",
-							"anyGamingSet"
+						"anyMusicalInstrument",
+						"anyGamingSet"
 						],
 						"count": 1
 					}
@@ -2397,29 +2397,29 @@
 			"level": 2,
 			"school": "A",
 			"time": [
-				{
-					"number": 1,
-					"unit": "bonus"
-				}
-			],
+						{
+							"number": 1,
+							"unit": "bonus"
+						}
+					],
 			"range": {
-				"type": "point",
-				"distance": {
-					"type": "self"
-				}
-			},
+					"type": "point",
+					"distance": {
+								"type": "self"
+								}
+					},
 			"components": {
-				"v": true,
-				"s": true
-			},
+							"v": true,
+							"s": true
+						},
 			"duration": [
-				{
-					"type": "instant"
-				}
-			],
+							{
+								"type": "instant"
+							}
+						],
 			"entries": [
-				"You tap into your life force to heal yourself. Roll one or two of your unexpended Hit Point Dice, and regain a number of Hit Points equal to the roll's total plus your spellcasting ability modifier. Those dice are then expended."
-			],
+						"You tap into your life force to heal yourself. Roll one or two of your unexpended Hit Point Dice, and regain a number of Hit Points equal to the roll's total plus your spellcasting ability modifier. Those dice are then expended."
+					],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
@@ -2490,12 +2490,12 @@
 					}
 				]
 			},
-			"feats": [
-				{
-					"name": "Adept of the White Robes",
-					"source": "DSotDQ"
-				}
-			]
+				"feats": [
+					{
+						"name": "Adept of the White Robes",
+						"source": "DSotDQ"
+					}
+				]
 		},
 		{
 			"name": "Backlash",
@@ -2611,15 +2611,15 @@
 			"school": "E",
 			"time": [
 				{
-					"number": 1,
-					"unit": "action"
+				"number": 1,
+				"unit": "action"
 				}
 			],
 			"range": {
 				"type": "point",
 				"distance": {
-					"type": "feet",
-					"amount": 150
+				"type": "feet",
+				"amount": 150
 				}
 			},
 			"components": {
@@ -2629,13 +2629,13 @@
 			},
 			"duration": [
 				{
-					"type": "instant"
+				"type": "instant"
 				}
 			],
 			"entries": [
-				"You blast the mind of a creature that you can see within range. The target makes an Intelligence saving throw.",
-				"On a failed save, the target takes {@damage 10d12} Psychic damage and can't cast spells or take the  action. At the end of every 30 days, the target repeats the save, ending the effect on a success. The effect can also be ended by the {@spell greater restoration}, {@spell heal}, or {@spell wish} spell.",
-				"On a successful save, the target takes half as much damage only."
+			"You blast the mind of a creature that you can see within range. The target makes an Intelligence saving throw.",
+			"On a failed save, the target takes {@damage 10d12} Psychic damage and can't cast spells or take the  action. At the end of every 30 days, the target repeats the save, ending the effect on a success. The effect can also be ended by the {@spell greater restoration}, {@spell heal}, or {@spell wish} spell.",
+			"On a successful save, the target takes half as much damage only."
 			],
 			"damageInflict": [
 				"psychic"
@@ -2667,13 +2667,13 @@
 						"name": "Wizard",
 						"source": "PHB"
 					}
-				],
+			],
 				"fromSubclass": [
 					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
+					"class": {
+						"name": "Cleric",
+						"source": "PHB"
+					},
 						"subclass": {
 							"name": "Arcana Domain",
 							"shortName": "Arcana",
@@ -2682,16 +2682,16 @@
 					},
 					{
 						"class": {
-							"name": "Cleric",
-							"source": "PHB"
+						"name": "Cleric",
+						"source": "PHB"
 						},
 						"subclass": {
-							"name": "Arcana Domain",
-							"shortName": "Arcana",
-							"source": "SCAG"
+						"name": "Arcana Domain",
+						"shortName": "Arcana",
+						"source": "SCAG"
 						}
 					}
-				]
+			]
 			}
 		},		
 		{
@@ -5009,7 +5009,7 @@
 					"name": "Using a Higher-Level Spell Slot",
 					"entries": [
 						"The damage increases by {@scaledamage 4d10|4-9|1d10} for every spell slot level above 4."
-					]
+							]
 				}
 			],
 			"damageInflict": [
@@ -5726,9 +5726,8 @@
 			"inherits": {
 				"namePrefix": "Fire Kissed ",
 				"source": "JaysGuideToMaa",
-				"page": 506,
+				"page": 0,
 				"rarity": "uncommon",
-				"value": 25000,
 				"entries": [
 					"Forged in flames blessed by an {@creature Efreeti}, a Flame Kissed sword erupts in flame when it's blade makes an hostile contact with a creature causing an addition {@damage 1d6} fire damage."
 				]
@@ -5736,26 +5735,6 @@
 		}
 	],
 	"item": [
-		{
-			"name": "Alchemical Fire",
-			"source": "JaysGuideToMaa",
-			"page": 501,
-			"rarity": "uncommon",
-			"wondrous": true,
-			"weight": 0.2,
-			"value": 20000,
-			"entries": [
-				"weight: 0.2 lb cost: 200 gp",
-				"Highly inflammable material contained inside a vial with a stopper that can be dropped as an action by pulling the string attached to it. The stopper has a charge mechanism attached to it which on dropping creates an alchemical compressed fire that bursts out from the opening in a 15 foot cone. Each creature in that area must make a {@dc 12} Dexterity saving throw, taking 10 ({@damage 3d6}) fire damage on a failed saving throw, or half as much damage on a successful one. The vial is defected in process",
-				{
-					"type": "entries",
-					"name": "Crafting:",
-					"entries": [
-						"To craft Alchemical Fire, {@item Alchemist's Supplies|PHB}, {@item Glassblower's Tools|PHB} and {@item Tinker's Tools|PHB} proficiency is required along with access to an Alchemy lab, powdered bones, brine, fire salt, piece of metal, wool, sugar, yeast. {@dc 16}"
-					]
-				}
-			]
-		},
 		{
 			"name": "Blood Drinker",
 			"source": "JaysGuideToMaa",
@@ -5805,17 +5784,17 @@
 			"entries": [
 				"These Crystal lenses fit over the eyes. While wearing them, you can see much better than normal out to a range of 1 foot. You have advantage on Investigation checks that rely on sight while searching an area or studying an object within that range."
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://i.imgur.com/HuzDoom.png"
+				"fluff": {
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/HuzDoom.png"
+							}
 						}
-					}
-				]
-			}
+					]
+				}
 		},
 		{
 			"name": "Kashaandhra's Amulet of Appearance",
@@ -5828,17 +5807,17 @@
 			"entries": [
 				"This amulet enhances and glamourizes your appearence. Even if you have permanent scars, marks, or if you are wounded, you always appear to be at your best appearance. Your armor, weapons, and other equipment always shine as if just polished. Additionally, you're immune to the {@condition Charmned} condition."
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://i.imgur.com/HuzDoom.png"
+				"fluff": {
+					"images": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/HuzDoom.png"
+							}
 						}
-					}
-				]
-			}
+					]
+				}
 		},
 		{
 			"name": "Potion of Restoration",
@@ -5871,7 +5850,7 @@
 			"name": "Arrow, Flight",
 			"type": "A",
 			"rarity": "common",
-			"value": 20,
+			"value": 15,
 			"weight": 0.3,
 			"source": "JaysGuideToMaa",
 			"page": 501,
@@ -5904,7 +5883,7 @@
 			"source": "JaysGuideToMaa",
 			"page": 501,
 			"entries": [
-				"{@bold Subtype}: Ammo (Normal) to be crafted by an {@class artificer|TCE}",
+				"{@bold Subtype}: Ammo (Normal)",
 				"{@bold Kit}: {@item Woodcarver's Tools}, {@item Tinker's tools}- {@bold DC}: 16",
 				"The snaring arrows arrow are specially designed to restrain its target. The arrow heads is a tiny spring mechanism that contains a concisely packed trap that springs out right before the arrow hits the target. Instead of contesting against target's AC, the target gets to roll acrobatics check against the attack roll to determine if it gets restrained or not. On a critical hit, the target is {@condition Restrained} automatically. As the snaring arrows are heavier than usual, the normal and long range is reduced by two third of the original range (rounded down).",
 				"The snaring arrow is recoverable but requires a new net for every use."
@@ -5919,7 +5898,7 @@
 			"source": "JaysGuideToMaa",
 			"page": 501,
 			"entries": [
-				"{@bold Subtype}: Ammo (Normal) to be crafted by an {@class artificer|TCE}",
+				"{@bold Subtype}: Ammo (Normal)",
 				"{@bold Kit}: {@item Woodcarver's Tools}, {@item Glassblower's tools}- {@bold DC}: 16",
 				"These arrow's heads are hollow and have storage equal to that of a vial. It contains a tiny mechanism similar to a syringe. Liquids held within never dry out, and are injected directly ino a creature struck, there the vial's effects are saved against with disadvantage. {@dc 14}",
 				"An injection arrow is destroyed after use."
@@ -5929,15 +5908,15 @@
 			"name": "Arrows, Blinding",
 			"type": "A",
 			"rarity": "uncommon",
-			"value": 2000,
+			"value": 600,
 			"weight": 1,
 			"source": "JaysGuideToMaa",
 			"page": 501,
 			"entries": [
-				"{@bold Subtype}: Ammo (Alchemy) to be crafted by an {@class artificer|TCE}",
+				"{@bold Subtype}: Ammo (Alchemy)",
 				"{@bold Kit}: {@item Alchemist Supplies}, {@item Potter's Tools}, {@item Woodcarver's Tools}",
 				"{@bold Required Space(s)}: Alchemy Lab; {@bold DC}: 14",
-				"Blinding Arrows have a small clay pot with an opening inside, containing a reactive chemical. On hit, the chemical releases a bright flash, blinding the target if it fails a Dexterity Save {@dc 13} until the start of your next turn.",
+				"Blinding Arrows have a small clay pot with an opening inside, containing a reactive chemical. On hit, the chemical releases a bright flash, blinding the target if it fails a CON Save {@dc 13} until the start of your next turn.",
 				"A blinding arrow is destroyed upon use."
 			]
 		},
@@ -5958,58 +5937,54 @@
 			"name": "Arrows, Acid",
 			"type": "A",
 			"rarity": "Rare",
-			"value": 3000,
 			"weight": 0.5,
 			"source": "JaysGuideToMaa",
 			"page": 501,
 			"entries": [
-				"{@bold Subtype}: Ammo (Magical) to be crafted by an {@class artificer|TCE}",
+				"{@bold Subtype}: Ammo (Magical)",
 				"{@bold Components Required)}: Artificer's Spell Slot for every 3 Arrows, powdered rhubarb leaf and an adder's stomach. {@bold DC}: 14 {@skill Arcana}",
-				"The arrow turns into a streak of acid mid-path. On a hit, the target takes {@h}4 {@damage 1d8} acid damage and the target must make a successful {@dc 14} CON save or take another {@h}4 {@damage 1d8} acid damage on subsequent turn. on a miss the target only takes half of initial damage and no damage on the following turn.",
+				"The arrow turns into a streak of acid mid-path. On a hit, the target takes {@h}4 {@damage 1d8} acid damage and the creature must make a successful {@dc 14} CON save or take another {@h}4 {@damage 1d8} acid damage on subsequent turn. on a miss the target only takes half of initial damage and no damage on the following turn.",
 				"The acid arrow is destroyed after use."
-			]
-		},
-		{
-			"name": "Arrows, Explosive",
-			"type": "A",
-			"rarity": "Rare",
-			"value": 2500,
-			"weight": 0.5,
-			"source": "JaysGuideToMaa",
-			"page": 501,
-			"entries": [
-				"{@bold Subtype}: Ammo (Magical) to be crafted by an {@class artificer|TCE}",
-				"{@bold Components Required)}: Artificer's Spell Slot for every 3 Arrows, sulfur and bat guamo. {@bold DC}: 14 {@skill Arcana}",
-				"On a hit, the explosive arrow bursts into a small pocket of explosion. The target takes additional  {@h}3 {@damage 1d6} force damage and must make a successful {@dc 14} DEX save or take another {@h}3 {@damage 1d6} fire damage.",
-				"The explosive arrow is destroyed after use."
 			]
 		},
 		{
 			"name": "Arrows, Ice",
 			"type": "A",
 			"rarity": "Rare",
-			"value": 2500,
 			"weight": 0.5,
 			"source": "JaysGuideToMaa",
 			"page": 501,
 			"entries": [
-				"{@bold Subtype}: Ammo (Magical) to be crafted by an {@class artificer|TCE}",
+				"{@bold Subtype}: Ammo (Magical)",
 				"{@bold Components Required)}: Artificer's Spell Slot for every 3 Arrows, water or ice. {@bold DC}: 14 {@skill Arcana}",
 				"The arrow turns into an ice shard mid-path. On a hit, the target takes 1d10 piercing damage and its speed reduces by 10 feet.",
 				"The ice arrow is destroyed after use."
 			]
 		},
 		{
-			"name": "Arrows, Necrotic",
+			"name": "Arrows, Explosive",
 			"type": "A",
 			"rarity": "Rare",
-			"value": 5000,
 			"weight": 0.5,
 			"source": "JaysGuideToMaa",
 			"page": 501,
 			"entries": [
-				"{@bold Subtype}: Ammo (Magical) to be crafted by an {@class artificer|TCE}",
-				"{@bold Components Required)}: Artificer's Spell Slot for every 3 Arrows, three small skull worth 5 gp, two square feet of dead remains. {@bold DC}: 14 {@skill Arcana}",
+				"{@bold Subtype}: Ammo (Magical)",
+				"{@bold Components Required)}: Artificer's Spell Slot for every 3 Arrows, sulfur and bat guamo. {@bold DC}: 14 {@skill Arcana}",
+				"On a hit, the explosive arrow bursts into a small pocket of explosion. The target takes additional  {@h}3 {@damage 1d6} force damage and must make a successful {@dc 14} DEX save or take another {@h}3 {@damage 1d6} fire damage.",
+				"The explosive arrow is destroyed after use."
+			]
+		},
+		{
+			"name": "Arrows, Necrotic",
+			"type": "A",
+			"rarity": "Rare",
+			"weight": 0.5,
+			"source": "JaysGuideToMaa",
+			"page": 501,
+			"entries": [
+				"{@bold Subtype}: Ammo (Magical)",
+				"{@bold Components Required)}: Artificer's Spell Slot for every 3 Arrows, a small skull worth 5 gp, two square feet of dead remains. {@bold DC}: 14 {@skill Arcana}",
 				"The <em>necrotic arrow</em> has a skull fuming with necrotic energy for arrow head. On a hit, the arrow deals {@h}2 {@damage 1d4} bludgeoning damage and {@h}5 {@damage 1d10} necrotic damage. On a hit, the target must succeed {@dc 14} CON save or its Hit Points Maximum reduce by equivalent to the necrotic damage dealt.",
 				"The necrotic arrow is destroyed after use."
 			]
@@ -6018,13 +5993,12 @@
 			"name": "Arrows, Tormenting",
 			"type": "A",
 			"rarity": "Rare",
-			"value": 4000,
 			"weight": 0.5,
 			"source": "JaysGuideToMaa",
 			"page": 501,
 			"entries": [
-				"{@bold Subtype}: Ammo (Magical) to be crafted by an {@class artificer|TCE}",
-				"{@bold Components Required)}: Artificer's Spell Slot for every 3 Arrows, 3 tiny humanoid replica poked by 5 pins and wood. {@bold DC}: 14 {@skill Arcana}",
+				"{@bold Subtype}: Ammo (Magical)",
+				"{@bold Components Required)}: Artificer's Spell Slot for every 3 Arrows, a tiny humanoid replica poked by 5 pins and wood. {@bold DC}: 14 {@skill Arcana}",
 				"On a hit, the tormenting arrow transforms in a crown of lightning around target's head and deals additional {@h}3 {@damage 1d6} Psychic Damage. Additionally, the target must succeed {@dc 14} WIS save or suffers from tormenting thoughts and visions that makes it hard for him to concentrate. The target has disadvantage on following saving throws and concentration checks till the end of the archer's next turn.",
 				"The tormenting arrow is destroyed after use."
 			]
@@ -6033,13 +6007,12 @@
 			"name": "Arrows, Radiant",
 			"type": "A",
 			"rarity": "Rare",
-			"value": 6000,
 			"weight": 0.5,
 			"source": "JaysGuideToMaa",
 			"page": 501,
 			"entries": [
-				"{@bold Subtype}: Ammo (Magical) to be crafted by an {@class artificer|TCE}",
-				"{@bold Components Required)}: Artificer's Spell Slot for every 3 Arrows, a holy symbol and holy water blessed by a cleric or a paladin in the name of their deity for each arrow. {@bold DC}: 14 {@skill Arcana}",
+				"{@bold Subtype}: Ammo (Magical)",
+				"{@bold Components Required)}: Artificer's Spell Slot for every 3 Arrows, a holy symbol and holy water blessed by a cleric or a paladin in the name of their deity. {@bold DC}: 14 {@skill Arcana}",
 				"On a hit, the radiant arrow explodes in a burst of radiant energy and the target must succeed {@dc 14} WIS save or takes {@h}7 {@damage 2d6} Radiant Damage. On a successful save the target only takes half radiant damage. An undead has disadvantage on the saving throw.",
 				"The radiant arrow is destroyed after use."
 			]
@@ -6048,12 +6021,11 @@
 			"name": "Arrows, Lightning",
 			"type": "A",
 			"rarity": "Rare",
-			"value": 1000,
 			"weight": 0.5,
 			"source": "JaysGuideToMaa",
 			"page": 501,
 			"entries": [
-				"{@bold Subtype}: Ammo (Magical) to be crafted by an {@class artificer|TCE}",
+				"{@bold Subtype}: Ammo (Magical)",
 				"{@bold Components Required)}: Artificer's Spell Slot for every 3 Arrows, a bit of fur and a rod of amber, crystal, or glass. {@bold DC}: 14 {@skill Arcana}",
 				"The arrow turns into a streak of lightning mid-path. On a hit, the target takes {@h}6 {@damage 1d12} lightning damage and anyone behind the target in the trajectory of the arrow within another 15 feet also takes the same amount of damage if the attack roll would hit them.",
 				"The lightning arrow is destroyed after use."
@@ -6063,12 +6035,11 @@
 			"name": "Arrows, Thunder",
 			"type": "A",
 			"rarity": "Rare",
-			"value": 1500,
 			"weight": 0.5,
 			"source": "JaysGuideToMaa",
 			"page": 501,
 			"entries": [
-				"{@bold Subtype}: Ammo (Magical) to be crafted by an {@class artificer|TCE}",
+				"{@bold Subtype}: Ammo (Magical)",
 				"{@bold Components Required)}: Artificer's Spell Slot for every 3 Arrows, a bit of fur and a a chip of mica or a pinch of phosphorus. {@bold DC}: 14 {@skill Arcana}",
 				"Choose a point on the ground or an object in your bow's range, the thunder arrow when shot pointed upwards turn into a rumble of thundering sound and cascade at the chosen point. Each creature within 10 feet radius of the point must make a {@dc 14} CON Save. They take {@h}9 {@damage 2d8} thunder damage on a failed save or half damage if they succeed.",
 				"The thunder arrow is destroyed after use."

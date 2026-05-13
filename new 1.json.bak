@@ -1,0 +1,391 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "JaysGuideToMaa",
+				"abbreviation": "JGM",
+				"full": "Jay's Guide to Maa",
+				"version": "1.6",
+				"authors": [
+					"Jayant Ahuja"
+				],
+				"color": "7702c5"
+			}
+		],
+		"dateAdded": 1763318002,
+		"dateLastModified": 1776792508059
+	},
+	"item": [
+	{
+"name": "Fire Kissed",
+"type": "GV|DMG",
+"source": "JaysGuideToMaa",
+"page": 506,
+"requires": [
+	{
+		"sword": true
+	}
+],
+"inherits": {
+	"namePrefix": "Fire Kissed",
+	"source": "JaysGuideToMaa",
+	"page": 506,
+	"rarity": "uncommon",
+	"reqAttune": false,
+	"entries": [
+		"Forged in flames blessed by an {@creature Efreeti}, a Flame Kissed sword erupts in flame when it's blade makes an hostile contact with a creature causing an addition {@dice 1d6} fire damage."
+	]
+},
+"entries": [
+	"Forged in flames blessed by an {@creature Efreeti}, a Flame Kissed sword erupts in flame when it's blade makes an hostile contact with a creature causing an addition {@dice 1d6} fire damage."
+],
+"variants": [
+	{
+		"base": {
+			"name": "Double-Bladed Scimitar",
+			"source": "ERLW",
+			"page": 21,
+			"type": "M",
+			"rarity": "none",
+			"weight": 6,
+			"value": 10000,
+			"weaponCategory": "martial",
+			"property": [
+				"2H",
+				"S"
+			],
+			"dmg1": "2d4",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"If you attack with a double-bladed scimitar as part of the {@action Attack} action on your turn, you can use a bonus action immediately after to make a melee attack with it. This attack deals {@damage 1d4} slashing damage on a hit, instead of {@damage 2d4}."
+					]
+				}
+			],
+			"hasFluff": true
+		},
+		"specificVariant": {
+			"name": "Fire Kissed Double-Bladed Scimitar",
+			"source": "DMG",
+			"type": "M",
+			"rarity": "rare",
+			"weight": 6,
+			"value": 35000,
+			"weaponCategory": "martial",
+			"property": [
+				"2H",
+				"S"
+			],
+			"dmg1": "2d4",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"If you attack with a double-bladed scimitar as part of the {@action Attack} action on your turn, you can use a bonus action immediately after to make a melee attack with it. This attack deals {@damage 1d4} slashing damage on a hit, instead of {@damage 2d4}."
+					]
+				}
+			],
+			"baseItem": "double-bladed scimitar|erlw",
+			"page": 506,
+			"reqAttune": false,
+			"genericVariant": {
+				"name": "Fire Kissed",
+				"source": "JaysGuideToMaa"
+			}
+		}
+	},
+	{
+		"base": {
+			"name": "Greatsword",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"referenceSources": [
+				"PaBTSO",
+				"TftYP-TSC"
+			],
+			"type": "M",
+			"rarity": "none",
+			"weight": 6,
+			"value": 5000,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"2H"
+			],
+			"dmg1": "2d6",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"entries": []
+		},
+		"specificVariant": {
+			"name": "Fire Kissed Greatsword",
+			"source": "DMG",
+			"type": "M",
+			"rarity": "rare",
+			"weight": 6,
+			"value": 30000,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"2H"
+			],
+			"dmg1": "2d6",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"entries": [],
+			"baseItem": "greatsword|phb",
+			"page": 506,
+			"reqAttune": false,
+			"genericVariant": {
+				"name": "Fire Kissed",
+				"source": "JaysGuideToMaa"
+			}
+		}
+	},
+	{
+		"base": {
+			"name": "Longsword",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"referenceSources": [
+				"CM",
+				"CoS",
+				"DSotDQ",
+				"GoS",
+				"IDRotF",
+				"KftGV",
+				"LK",
+				"LoX",
+				"PaBTSO",
+				"QftIS",
+				"RMBRE",
+				"TftYP-TSC",
+				"US",
+				"VEoR",
+				"WDH"
+			],
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 1500,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"sword": true,
+			"weapon": true,
+			"entries": []
+		},
+		"specificVariant": {
+			"name": "Fire Kissed Longsword",
+			"source": "DMG",
+			"type": "M",
+			"rarity": "rare",
+			"value": 26500,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"sword": true,
+			"weapon": true,
+			"entries": [],
+			"baseItem": "longsword|phb",
+			"page": 506,
+			"reqAttune": false,
+			"genericVariant": {
+				"name": "Fire Kissed",
+				"source": "JaysGuideToMaa"
+			}
+		}
+	},
+	{
+		"base": {
+			"name": "Rapier",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"referenceSources": [
+				"CM",
+				"CoS",
+				"DitLCoT",
+				"QftIS",
+				"US"
+			],
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 2500,
+			"weaponCategory": "martial",
+			"property": [
+				"F"
+			],
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"rapier": true,
+			"sword": true,
+			"weapon": true,
+			"entries": []
+		},
+		"specificVariant": {
+			"name": "Fire Kissed Rapier",
+			"source": "DMG",
+			"type": "M",
+			"rarity": "rare",
+			"weight": 2,
+			"value": 27500,
+			"weaponCategory": "martial",
+			"property": [
+				"F"
+			],
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"rapier": true,
+			"sword": true,
+			"weapon": true,
+			"entries": [],
+			"baseItem": "rapier|phb",
+			"page": 506,
+			"reqAttune": false,
+			"genericVariant": {
+				"name": "Fire Kissed",
+				"source": "JaysGuideToMaa"
+			}
+		}
+	},
+	{
+		"base": {
+			"name": "Scimitar",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"referenceSources": [
+				"KftGV",
+				"RMBRE",
+				"TftYP-TSC"
+			],
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 2500,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"entries": []
+		},
+		"specificVariant": {
+			"name": "Fire Kissed Scimitar",
+			"source": "DMG",
+			"type": "M",
+			"rarity": "rare",
+			"value": 27500,
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"entries": [],
+			"baseItem": "scimitar|phb",
+			"page": 506,
+			"reqAttune": false,
+			"genericVariant": {
+				"name": "Fire Kissed",
+				"source": "JaysGuideToMaa"
+			}
+		}
+	},
+	{
+		"base": {
+			"name": "Shortsword",
+			"source": "PHB",
+			"page": 149,
+			"srd": true,
+			"basicRules": true,
+			"referenceSources": [
+				"CM",
+				"CoS",
+				"IDRotF",
+				"KftGV",
+				"PaBTSO",
+				"US",
+				"VEoR"
+			],
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true,
+			"entries": []
+		},
+		"specificVariant": {
+			"name": "Fire Kissed Shortsword",
+			"source": "DMG",
+			"type": "M",
+			"rarity": "rare",
+			"value": 26000,
+			"weight": 2,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true,
+			"entries": [],
+			"baseItem": "shortsword|phb",
+			"page": 506,
+			"reqAttune": false,
+			"genericVariant": {
+				"name": "Fire Kissed",
+				"source": "JaysGuideToMaa"
+			}
+		}
+	}
+]
+	}
+	]
+}
