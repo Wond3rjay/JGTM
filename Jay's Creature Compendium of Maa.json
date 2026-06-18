@@ -1,0 +1,1546 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "JayCCM",
+				"abbreviation": "JCCM",
+				"full": "Jay's Creature Compendium of Maa",
+				"version": "1.5",
+				"authors": [
+					"Jayant Ahuja"
+				],
+				"convertedBy": [
+					"Jayant Ahuja"
+				],
+				"color": "ff8000",
+				"colorNight": "ff8000"
+			}
+		]
+	},
+	"monster": [
+		{
+			"name": "Blood Seed Troll",
+			"shortName": true,
+			"source": "JayCCM",
+			"page": "NA",
+			"size": [
+				"L"
+			],
+			"type": "aberration",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"alignmentPrefix": "typically ",
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"natural armor",
+						"{@item shield|JHRM}"
+					]
+				}
+			],
+			"hp": {
+				"average": 95,
+				"formula": "10d10 + 40"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 19,
+			"dex": 13,
+			"con": 18,
+			"int": 17,
+			"wis": 9,
+			"cha": 12,
+			"save": {
+				"con": "+7",
+				"int": "+6"
+			},
+			"skill": {
+				"perception": "+5",
+				"stealth": "+4"
+			},
+			"senses": [
+				"blindsight 60 ft."
+			],
+			"passive": 19,
+			"languages": [
+				"Giant",
+				"telepathy 60 ft."
+			],
+			"cr": "7",
+			"trait": [
+				{
+					"name": "Mutation",
+					"entries": [
+						"When the Blood Seed Troll is created, it gains two body mutations 1, Spell Scarred and 2, Jelly Blood. This mutation determines certain traits in this stat block."
+					]
+				},
+				{
+					"name": "Multiply (Jelly Blood)",
+					"entries": [
+						"A Blood Seed Troll's blood has fused with Ochre Jelly during regeneration resulting in the union of two different kinds of organisms into a new aberration. As a result, any spilled blood can regather and reform as Jelly while the regeneration helps troll blood jelly to recover itself."
+					]
+				},
+				{
+					"name": "Magic Resistance (Spell Scarred)",
+					"entries": [
+						"The mutate has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Psychic Rebuke (Psionic Mirror Only)",
+					"entries": [
+						"If the mutate takes psychic damage, each creature within 20 feet of it takes that damage as well."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The mutate regains 10 hit points at the start of its turn. If the mutate takes acid or fire damage, this trait doesn't function at the start of the mutate's next turn. The mutate dies only if it starts its turn with 0 hit points and doesn't regenerate. If the mutate starts its turn with 0 hit points and regenerates, it randomly gains a mutation it doesn't already have (up to a maximum of four mutations)."
+					]
+				},
+				{
+					"name": "Legendary Resistance (2/Day)",
+					"entries": [
+						"If the Blood Seed Troll fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The mutate makes two Rend attacks."
+					]
+				},
+				{
+					"name": "Rend",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft. (or 15 ft. if the mutate has the Elastic Body mutation), one target. {@h}15 ({@damage 2d10 + 4}) slashing damage plus 9 ({@damage 2d8}) force damage."
+					]
+				},
+				{
+					"name": "Psychic Burst {@recharge 5}",
+					"entries": [
+						"The mutate unleashes a wave of psychic energy. Each creature within 30 feet of the mutate must make a {@dc 14} Intelligence saving throw, taking 28 ({@damage 8d6}) psychic damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Split",
+					"entries": [
+						"When a Blood Seed Troll's blood is spilled due to lightning or slashing damage, the blood coagulates and becomes an independent Ochre Jelly if the Blood Seed Troll has at least 10 hit points. The ochre jelly starts with {@dice 6d10} hp.  ",
+						"Furthermore, when a Medium or larger ochre jelly is subjected to lightning or slashing damage, it splits into two new jellies if it has at least 10 hit points. Each new jelly has hit points equal to half the original jelly's, rounded down. New jellies are one size smaller than the original jelly."
+					]
+				}
+			],
+			"environment": [
+				"hill",
+				"mountain",
+				"swamp",
+				"underdark"
+			],
+			"token": {
+				"name": "Troll Mutate",
+				"source": "BGG"
+			},
+			"traitTags": [
+				"Amorphous",
+				"Legendary Resistances",
+				"Magic Resistance",
+				"Regeneration"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"GI",
+				"TP"
+			],
+			"miscTags": [
+				"MW",
+				"AOE"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"fluff": {
+				"name": "Troll Mutate",
+				"source": "BGG",
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/BGG/Troll Mutate.webp"
+						}
+					}
+				],
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"When exposed to corrupting alien energy, such as that found near a gate to the Far Realm or the strange magic that emanates through the Underdark, a regenerating troll undergoes strange mutations. Among the most common mutations are wings, stretchable bodies, resistance to magic, and a strange reflective psychic property. Many troll mutates also have small additional limbs and eyes, externalized organs, and other variations."
+								]
+							}
+						]
+					},
+					{
+						"type": "section",
+						"name": "Trolls",
+						"entries": [
+							"The dwarven tale titled{@i The Saga of Gnarldan Steelshield}claims the god Vaprak the Destroyer came into being when Annam was injured and his blood spilled on the ground. The saga further claims that trolls were born similarly when Vaprak's blood was spilled. Whatever the truth of their origin, trolls embody life's steadfast determination to grow and thrive despite all obstacles.",
+							"Trolls' rapid healing makes them subject to bizarre mutations, particularly when they regenerate in unusual environments or heal from extraordinary magical wounds. Troll amalgams and troll mutates are two examples of such strangely mutated forms.",
+							{
+								"type": "quote",
+								"entries": [
+									"I'll just keep reminding myself that the gods delight in the variety of their creations, new wonders are revealed every day, and the multiverse is much larger than I can imagine. And that's a good thing!"
+								],
+								"by": "Bigby"
+							},
+							{
+								"type": "quote",
+								"entries": [
+									"Excellent. But these trolls are loathsome."
+								],
+								"by": "Diancastra"
+							}
+						]
+					}
+				]
+			},
+			"damageTags": [
+				"O",
+				"S",
+				"Y"
+			],
+			"savingThrowForced": [
+				"intelligence"
+			]
+		},
+		{
+			"name": "Aamavasya, The Black Shadow Dragon",
+			"source": "JayCCM",
+			"size": [
+				"H"
+			],
+			"type": "dragon",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "18d12 + 108",
+				"average": 225
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40,
+				"fly": 80
+			},
+			"str": 25,
+			"dex": 10,
+			"con": 23,
+			"int": 14,
+			"wis": 11,
+			"cha": 19,
+			"save": {
+				"dex": "+5",
+				"con": "+11",
+				"wis": "+5",
+				"cha": "+9"
+			},
+			"skill": {
+				"perception": "+10",
+				"stealth": "+10"
+			},
+			"senses": [
+				"blindsight 30 ft.",
+				"darkvision 120 ft."
+			],
+			"passive": 18,
+			"resist": [
+				"necrotic"
+			],
+			"immune": [
+				"acid"
+			],
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"cr": "16",
+			"trait": [
+				{
+					"name": "Living Shadow",
+					"entries": [
+						"While in dim light or darkness, the dragon has resistance to damage that isn't force, psychic, or radiant."
+					]
+				},
+				{
+					"name": "Shadow Stealth",
+					"entries": [
+						"While in dim light or darkness, the dragon can take the Hide action as a bonus action."
+					]
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"While in sunlight, the dragon has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight.",
+						"It also becomes vulnerable to radiance damage in sunlight."
+					]
+				},
+				{
+					"name": "Flyby",
+					"entries": [
+						"The amaavasya doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dragon makes three attacks: one with its bite and two with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 10 ft., one target. {@h}18 ({@damage 2d10 + 7}) piercing damage plus 3 ({@damage 1d6}) necrotic damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 12} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d6 + 7}) slashing damage."
+					]
+				},
+				{
+					"name": "Shadow Breath {@recharge 5}",
+					"entries": [
+						"The dragon exhales acid in a 60-foot line that is 5 feet wide. Each creature in that line must make a {@dc 19} Dexterity saving throw, taking {@h} 63 ({@damage 18d6}) necrotic damage on a failed save or half as much damage on a successful one."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "inset",
+					"name": "Customizing Dragons",
+					"source": "FTD",
+					"page": 33,
+					"entries": [
+						"You can customize any dragon's stat block to reflect the dragon's unique character. Minor changes such as those below are easy to make and have no impact on a dragon's challenge rating.",
+						{
+							"type": "entries",
+							"name": "Languages",
+							"entries": [
+								"Most dragons prefer to speak Draconic but learn Common for dealing with allies and minions. But given their high Intelligence and long life span, dragons can easily learn additional languages. You can add languages to a dragon's stat block."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Skills",
+							"entries": [
+								"Most dragons are proficient in the {@skill Perception} and {@skill Stealth} skills, and many dragons have additional skill proficiencies. As with languages, you can customize a dragon's skill list (even doubling their proficiency bonus with certain skills) to reflect particular interests and activities. You can also give a dragon tool proficiencies, particularly if the dragon spends time in Humanoid form."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spells",
+							"entries": [
+								"{@note See the \"Variant: Dragons as Innate Spellcasters\" inset(s), below.}"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Other Traits and Actions",
+							"entries": [
+								"You can borrow traits and actions from other monsters to add unique flavor to a dragon. Consider these examples:",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "Damage Absorption",
+											"entries": [
+												"You might decide that this dragon is not only unharmed by fire damage, but actually healed by it.",
+												"Whenever the dragon is subjected to fire damage, it takes no damage and instead regains a number of hit points equal to the fire damage dealt."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Flyby",
+											"entries": [
+												"The dragon is an agile flier, quick to fly out of enemies' reach.",
+												"The dragon doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Mimicry",
+											"entries": [
+												"Impersonating characters or their allies could be a fun trick for a crafty dragon.",
+												"The dragon can mimic any sounds it has heard, including voices. A creature that hears the sounds can tell they are imitations with a successful {@dc 12} Wisdom ({@skill Insight}) check."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Rejuvenation",
+											"entries": [
+												"You might decide that dragons in your campaign, being an essential part of the Material Plane, are nearly impossible to destroy. A dragon's life essence might be preserved in the egg from which it first emerged, in its hoard, or in a cavernous hall at the center of the world, just as a lich's essence is hidden in a phylactery.",
+												"If it has an essence-preserving object, a destroyed dragon gains a new body in {@dice 1d10} days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the object."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Special Senses",
+											"entries": [
+												"Most dragons have {@sense blindsight} and {@sense darkvision}. You might upgrade {@sense blindsight} to {@sense truesight}, or you could give a dragon with a burrowing speed {@sense tremorsense|MM}."
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"environment": [
+				"underdark"
+			],
+			"dragonCastingColor": "black",
+			"dragonAge": "young",
+			"soundClip": {
+				"type": "external",
+				"url": "http://localhost/audio/bestiary/red-shadow-dragon.mp3"
+			},
+			"traitTags": [
+				"Flyby",
+				"Sunlight Sensitivity"
+			],
+			"senseTags": [
+				"B",
+				"SD"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Shadow dragons are true dragons that were either born in the Shadowfell or transformed by years spent within its dismal confines. Some shadow dragons embrace the Shadowfell for its bleak landscapes and desolation. Others seek to return to the Material Plane, hungry to spread the darkness and evil of the Plane of Shadow.",
+									{
+										"type": "entries",
+										"name": "Dark Portals",
+										"entries": [
+											"Portals to the Shadowfell manifest in forlorn places and the deep gloom of subterranean caverns. The dragons that lair in such places often discover these portals and find themselves transported to a new realm. Ancient dragons that sleep in their lairs for months or years at a time might find themselves spirited away, never knowing that a portal has formed without their knowledge as they dream."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Recast in Shadow",
+										"entries": [
+											"The transformation to a shadow dragon happens over a period of years, during which time a dragon's scales lose their luster and fade to a charcoal hue. Its leathery wings become translucent, its eyes paling to pools of opalescent gray. Shadow dragons find sunlight abhorrent, and they are weaker in bright light than they are in darkness. Darkness makes the dragon fade to a spectral shadow of its former self. The magical nature of dragons holds an attraction for the Shadowfell, which seems somehow to crave the might and majesty of these great reptiles. The Shadowfell also has a dispiriting effect on its denizens, such that the longer a creature remains on the plane, the more it accepts the plane's malaise. As months and years pass for a dragon on the Shadowfell, it becomes aware of the transformation being wrought upon it, and yet can do nothing to prevent it."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Back in the World",
+										"entries": [
+											"A shadow dragon is so suffused with the power of the Shadowfell that even a return to the Material Plane can't undo its transformation. Some shadow dragons attempt to lure other creatures from the mortal realm back to the Shadowfell to keep them company, at least until they tire of their guests and devour them. Others are happy to leave the Shadowfell behind forever, understanding that treasure and power are easier to come by in the Material Plane."
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Shadow Dragon Template",
+						"entries": [
+							"Only a true dragon can transform into a shadow dragon, and only if it is born in the Shadowfell or remains there for several years. A dracolich can't be turned into a shadow dragon, since it loses its draconic nature when it becomes undead.",
+							"When a dragon becomes a shadow dragon, it retains its statistics except as described below. The shadow dragon might retain or lose any or all of its lair actions or inherit new ones, as the DM sees fit.",
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Damage Resistances",
+										"entries": [
+											"The dragon has resistance to necrotic damage."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Skill Proficiency: Stealth",
+										"entries": [
+											"The dragon's proficiency bonus is doubled for its Dexterity ({@skill Stealth}) checks."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Living Shadow",
+										"entries": [
+											"While in dim light or darkness, the dragon has resistance to damage that isn't force, psychic, or radiant."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Shadow Stealth",
+										"entries": [
+											"While in dim light or darkness, the dragon can take the {@action Hide} action as a bonus action."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Sunlight Sensitivity",
+										"entries": [
+											"While in sunlight, the dragon has disadvantage on attack rolls, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "New Action: Bite",
+										"entries": [
+											"If the dragon deals acid, cold, fire, lightning, or poison damage with its bite, change that damage type to necrotic."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "New Action: Shadow Breath",
+										"entries": [
+											"Any damage-dealing breath weapon possessed by the dragon deals necrotic damage instead of its original damage type. A humanoid reduced to 0 hit points by this damage dies, and an undead shadow rises from its corpse and acts immediately after the dragon in the initiative count. The shadow is under the dragon's control."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "img/bestiary/PotA/Nurvureem, The Dark Lady.webp"
+						}
+					}
+				]
+			},
+			"shortName": "Amaavasya",
+			"legendaryGroup": {
+				"name": "Aamavasya",
+				"source": "JaysHomebrewRulesandMonsters"
+			},
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"This dragon can innately cast three spells per day, requiring no material components. Each spell's level can be no higher than 5th. The dragon's spell save DC is {@dc 17}, and it has {@hit +9} to hit with spell attacks."
+					],
+					"daily": {
+						"3": [
+							"{@spell blight}",
+							"{@spell Evard's black tentacles}",
+							"{@spell hunger of Hadar}",
+							"{@spell sickening radiance|XGE}",
+							"{@spell vitriolic sphere|XGE}"
+						]
+					},
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"vulnerable": [
+				{
+					"vulnerable": [
+						"radiant"
+					],
+					"preNote": "(When in Sunlight)"
+				}
+			],
+			"damageTagsLegendary": [
+				"B"
+			],
+			"tokenHref": {
+				"type": "internal",
+				"path": "img/bestiary/PotA/Nurvureem, The Dark Lady.webp"
+			},
+			"damageTags": [
+				"N",
+				"P",
+				"S"
+			],
+			"damageTagsSpell": [
+				"A",
+				"B",
+				"C",
+				"N",
+				"R"
+			],
+			"savingThrowForced": [
+				"dexterity"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"dexterity"
+			]
+		},
+		{
+			"name": "Loh (Pishaach)",
+			"source": "JayCCM",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "undead",
+				"tags": [
+					"shapechanger"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				},
+				{
+					"ac": 20,
+					"from": [
+						"natural armor"
+					],
+					"condition": "bloody arms"
+				}
+			],
+			"hp": {
+				"formula": "17d8 + 102",
+				"average": 178
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30,
+				"fly": {
+					"number": 20,
+					"condition": "leap"
+				}
+			},
+			"str": 22,
+			"dex": 18,
+			"con": 20,
+			"int": 15,
+			"wis": 18,
+			"cha": 20,
+			"save": {
+				"dex": "+9",
+				"wis": "+9",
+				"cha": "+10",
+				"con": "+10"
+			},
+			"skill": {
+				"intimidation": "+10",
+				"stealth": "+9",
+				"persuasion": "+10"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 14,
+			"resist": [
+				"necrotic",
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"languages": [
+				"the languages it knew in life"
+			],
+			"cr": "15",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Loh is a 5th-level spellcaster, his spellcasting ability is Charisma (spell save {@dc 18}). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell arms of Hadar}",
+						"{@spell darkness}",
+						"{@spell disguise self}",
+						"{@spell dissonant whispers}",
+						"{@spell invisibility}",
+						"{@spell misty step}",
+						"{@spell sapping sting|EGW}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell blade of blood and bone|BookOfEbonTides}",
+							"{@spell detect thoughts}",
+							"{@spell hold monster}",
+							"{@spell summon greater demon|XGE}",
+							"{@spell vampiric touch}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"If the vampire isn't in sunlight or running water, it can use its action to polymorph into a Tiny bat or a Medium cloud of mist, or back into its true form.",
+						"While in bat form, the vampire can't speak, its walking speed is 5 feet, and it has a flying speed of 30 feet. Its statistics, other than its size and speed, are unchanged. Anything it is wearing transforms with it, but nothing it is carrying does. It reverts to its true form if it dies.",
+						"While in mist form, the vampire can't take any actions, speak, or manipulate objects. It is weightless, has a flying speed of 20 feet, can hover, and can enter a hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and it can't pass through water. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to all nonmagical damage, except the damage it takes from sunlight."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the vampire fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Misty Escape",
+					"entries": [
+						"When it drops to 0 hit points outside its resting place, the vampire transforms into a cloud of mist (as in the Shapechanger trait) instead of falling {@condition unconscious}, provided that it isn't in sunlight or running water. If it can't transform, it is destroyed.",
+						"While it has 0 hit points in mist form, it can't revert to its vampire form, and it must reach its resting place within 2 hours or be destroyed. Once in its resting place, it reverts to its vampire form. It is then {@condition paralyzed} until it regains at least 1 hit point. After spending 1 hour in its resting place with 0 hit points, it regains 1 hit point."
+					]
+				},
+				{
+					"name": "Regeneration",
+					"entries": [
+						"The vampire regains 20 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The vampire can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				},
+				{
+					"name": "Vampire Weaknesses",
+					"entries": [
+						"The vampire has the following flaws:",
+						"{@i Stake to the Heart.} If a piercing weapon made of wood is driven into the vampire's heart while the vampire is {@condition incapacitated} in its resting place, the vampire is {@condition paralyzed} until the stake is removed.",
+						"{@i Sunlight Hypersensitivity.} The vampire takes 10 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack (Vampire Form Only)",
+					"entries": [
+						"Loh makes three attacks, only one of which can be a bite attack."
+					]
+				},
+				{
+					"name": "Unarmed Strike (Vampire Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 16})."
+					]
+				},
+				{
+					"name": "Bite (Bat or Vampire Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a vampire spawn under the vampire's control."
+					]
+				},
+				{
+					"name": "Blood Puppet (3/day)",
+					"entries": [
+						"Loh targets one humanoid it can see within 30 feet. The target must succeed on a {@dc 17} Wisdom saving throw or be dominated by the vampire warlock as if it were the target of a {@spell dominate person} spell. The target repeats the saving throw each time the vampire warlock or the vampire's companions do anything harmful to it, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire warlock is destroyed, is on a different plane of existence than the target, or uses a bonus action to end the effect; the vampire warlock doesn't need to concentrate on maintaining the effect."
+					]
+				},
+				{
+					"name": "Children of Hell (1/Day)",
+					"entries": [
+						"Loh magically calls {@dice 2d4} {@creature quasit|mm|quasits} or 1 {@creature shadow}. The called creatures arrive in {@dice 1d4} rounds, acting as allies of the vampire warlock and obeying its spoken commands, and remain for 1 hour, until the vampire warlock dies, or until the vampire warlock dismisses them as a bonus action."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Misty Step",
+					"entries": [
+						"Loh uses {@spell misty step}."
+					]
+				},
+				{
+					"name": "Unarmed Strike",
+					"entries": [
+						"Loh makes one unarmed strike."
+					]
+				},
+				{
+					"name": "Bloody Arms (Costs 2 Actions)",
+					"entries": [
+						"Loh saturates itself in its own blood, causing 20 poison damage to itself. For 1 minute, its armor class increases to 20, and its unarmed strike and bite attacks do an additional 7 ({@damage 2d6}) poison damage."
+					]
+				}
+			],
+			"environment": [
+				"any"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ToB/token/Vampire%20Warlock.png"
+			},
+			"traitTags": [
+				"Legendary Resistances",
+				"Regeneration",
+				"Shapechanger",
+				"Spider Climb",
+				"Sunlight Sensitivity"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"LF"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"HPR"
+			],
+			"conditionInflictSpell": [
+				"charmed",
+				"invisible",
+				"paralyzed"
+			],
+			"fluff": {
+				"entries": [
+					"Loh has made a pact with a foul power to diminish some of its weaknesses and to gain more control over its own blood and the blood of others. Its thirst becomes so all-consuming that the vampire warlock can draw the blood of others through the air to its open maw."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ToB/Vampire%20Warlock.webp"
+						}
+					}
+				]
+			},
+			"isNamedCreature": true,
+			"legendaryGroup": {
+				"name": "Pishaach",
+				"source": "JaysHomebrewRulesandMonsters"
+			},
+			"damageTags": [
+				"B",
+				"I",
+				"N",
+				"P"
+			],
+			"damageTagsSpell": [
+				"N",
+				"Y"
+			],
+			"savingThrowForced": [
+				"wisdom"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"constitution",
+				"strength",
+				"wisdom"
+			]
+		},
+		{
+			"name": "Saagaraani (Sea Fury)",
+			"group": [
+				"Hags"
+			],
+			"source": "JayCCM",
+			"size": [
+				"M"
+			],
+			"type": "fey",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor",
+						"{@item bracers of defense}"
+					]
+				}
+			],
+			"hp": {
+				"average": 123,
+				"formula": "13d8 + 65"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 50
+			},
+			"str": 19,
+			"dex": 17,
+			"con": 20,
+			"int": 12,
+			"wis": 12,
+			"cha": 18,
+			"skill": {
+				"deception": "+9",
+				"insight": "+6",
+				"perception": "+6",
+				"stealth": "+8"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 16,
+			"immune": [
+				"cold",
+				"fire",
+				"poison",
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that aren't silvered",
+					"cond": true
+				}
+			],
+			"conditionImmune": [
+				"paralyzed",
+				"poisoned"
+			],
+			"languages": [
+				"Aquan",
+				"Common",
+				"Giant"
+			],
+			"cr": {
+				"cr": "14",
+				"lair": "16"
+			},
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"The sea fury's innate spellcasting ability is Charisma (spell save {@dc 17}, {@hit 9} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell shape water|XGE}",
+						"{@spell water whip|HelianasGuidetoMonsterHunting}",
+						"{@spell witch bolt}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell absorb elements|XGE}",
+							"{@spell faerie fire} (Doesn't require {@condition concentration})",
+							"{@spell hex} (Doesn't require {@condition concentration})",
+							"{@spell thunderwave}"
+						],
+						"2e": [
+							"{@spell bestow curse}",
+							"{@spell counterspell}",
+							"{@spell tidal wave|XGE}",
+							"{@spell wall of water|XGE}"
+						],
+						"1e": [
+							"{@spell summon elemental|TCE} (6th level)",
+							"{@spell watery sphere|XGE}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The sea fury can breathe air and water."
+					]
+				},
+				{
+					"name": "Legendary Resistance (3/Day)",
+					"entries": [
+						"If the sea fury fails a saving throw, it can choose to succeed instead."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The sea fury has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The sea fury makes two attacks with its claws."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Tentacle",
+					"entries": [
+						"{@atk rw} {@hit 9} to hit, reach 15 ft. from nearest water body, one target. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage. If the target is a creature, it is {@condition grappled} (escape {@dc 16}). Until this grapple ends, the target is {@condition restrained}, and the octopus can't use its tentacles on another target."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Whip Lash",
+					"entries": [
+						"The Sea Fury makes casts {@spell water whip} {@h +9} to hit. On hit, the whip deals {@damage 3d6} and the creature must succeed a Strength Saving Throw {@dc 17} or is pulled 10 feet in the direction of origin of the water whip."
+					]
+				},
+				{
+					"name": "Fearsome Apparition (Costs 2 Actions)",
+					"entries": [
+						"The sea fury conjures an apparition of one of its dead sisters, which appears in an unoccupied space the sea fury can see within 30 feet of it. Enemies of the sea fury that can see the apparition must succeed on a {@dc 17} Wisdom saving throw or be {@condition frightened} of it until it vanishes at the end of the sea fury's next turn."
+					]
+				},
+				{
+					"name": "Tidal Displacement (Costs 3 Actions)",
+					"entries": [
+						"the Sea Fury transforms into a 10 feet wide and 10 feet tall, wave of water that travels 30 feet and crashes down on everything it moves through. Each creature in that area must make a Strength saving throw. On a failed save, a creature takes {@damage 3d8} bludgeoning damage and is knocked {@condition prone}. On a successful save, a creature takes half as much damage and isn't knocked {@condition prone}."
+					]
+				}
+			],
+			"legendaryGroup": {
+				"name": "Sea Fury",
+				"source": "EGW"
+			},
+			"traitTags": [
+				"Amphibious",
+				"Legendary Resistances",
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Tentacles"
+			],
+			"languageTags": [
+				"AQ",
+				"C",
+				"GI"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"RCH",
+				"MLW"
+			],
+			"conditionInflictLegendary": [
+				"prone"
+			],
+			"conditionInflictSpell": [
+				"frightened"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"token": {
+				"name": "Sea Fury",
+				"source": "EGW"
+			},
+			"fluff": {
+				"name": "Sea Fury",
+				"source": "EGW",
+				"entries": [
+					{
+						"type": "section",
+						"entries": [
+							"In times of great danger, sea hags form massive covens to channel powerful magic against outside threats. But when the threat is vanquished, these covens often destroy themselves from within. One sea hag grows more powerful than the others, killing its kin one by one and siphoning their magical power as it does so.",
+							"Driven to madness by the power it claims—and by the loneliness that is the cost of its killing spree—the hag becomes a sea fury, which hoards treasure, spreads rumors, and does everything within its power to lure sailors and explorers to its lair. By doing so, it hopes to break its loneliness for a time—and then to destroy its new playthings when they have outlived their usefulness."
+						]
+					},
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Lair Actions",
+								"entries": [
+									"A sea fury lurks in the caverns where its coven once dwelled, decorating the walls with the bones of its slain kin, as well as baubles stolen from sunken wrecks.",
+									"On initiative count 20 (losing initiative ties), the sea fury can take a lair action to cause one of the following magical effects, but can't use the same effect two rounds in a row:",
+									{
+										"type": "list",
+										"items": [
+											"Caverns, tunnels, and pools of water within 120 feet of the sea fury become foggy or murky, to the extent that the area becomes heavily obscured.",
+											"The sea fury conjures a 15-foot cube of water that fills an unoccupied space it can see within 30 feet of it, then moves the water in a straight line up to 60 feet, after which the water disperses. Any creature that comes into contact with the rushing {@item wave} must succeed on a {@dc 16} Strength saving throw or be knocked {@condition prone} by it and pushed 15 feet along its course.",
+											"The sea fury calls forth the spirit of a dead sailor or sea hag that met its end in the lair. This spirit has the statistics of a {@creature specter} and lasts until the sea fury uses another lair action. The specter appears in an unoccupied space within 30 feet of the sea fury and obeys the sea fury's commands."
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Regional Effects",
+								"entries": [
+									"The region containing a sea fury's lair is warped by the sea fury's magic, which creates the following effects:",
+									{
+										"type": "list",
+										"items": [
+											"Sea water within 5 miles of the lair becomes coarse and choppy, as if whipped by an unseen wind.",
+											"Sea grass within 1 mile of the lair is imbued with a foul mockery of life, grasping ineffectually at any creature that passes within 5 feet of it.",
+											"Ordinary {@creature crab||crabs} and {@creature octopus||octopi} within 1 mile of the lair grow in size to become {@creature giant crab||giant crabs} and {@creature giant octopus||giant octopi}, respectively. These creatures serve the sea fury as spies and guards."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/EGW/Sea Fury.webp"
+						},
+						"credit": "Andrew Mar"
+					}
+				]
+			},
+			"shortName": "Sea Fury",
+			"conditionInflict": [
+				"grappled",
+				"prone",
+				"restrained"
+			],
+			"bonus": [
+				{
+					"name": "Death Glare",
+					"entries": [
+						"The sea fury targets one {@condition frightened} creature it can see within 30 feet of it. The target must make {@dc 17} Wisdom saving throw. On a fail, the target drops to 0 hit points. On success, the target is immune to this Sea Fury's death glare for 24 hours."
+					]
+				}
+			],
+			"damageTags": [
+				"B",
+				"S"
+			],
+			"damageTagsSpell": [
+				"B",
+				"L",
+				"N",
+				"T"
+			],
+			"savingThrowForced": [
+				"wisdom"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"dexterity",
+				"strength",
+				"wisdom"
+			],
+			"savingThrowForcedLegendary": [
+				"strength"
+			]
+		},
+		{
+			"name": "Kaal Naag",
+			"source": "JayCCM",
+			"size": [
+				"H"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 19,
+					"from": [
+						"Blood Seed"
+					]
+				}
+			],
+			"hp": {
+				"formula": "24d12 + 96",
+				"average": 252
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 40,
+				"swim": 40
+			},
+			"str": 24,
+			"dex": 13,
+			"con": 19,
+			"int": 19,
+			"wis": 18,
+			"cha": 20,
+			"senses": [
+				"blindsight 30 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 26,
+			"resist": [
+				"acid",
+				"fire",
+				"lightning"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languages": [
+				"Abyssal",
+				"Common",
+				"Draconic",
+				"Undercommon"
+			],
+			"cr": {
+				"cr": "23",
+				"lair": "24"
+			},
+			"spellcasting": [
+				{
+					"name": "Spellcasting (Anathema Form Only)",
+					"headerEntries": [
+						"Kaal Naag is a 16th level spellcaster and casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save {@dc 20}) and {@hit +12} to hit:"
+					],
+					"will": [
+						"{@spell animal friendship} (snakes only)",
+						"{@spell poison spray}"
+					],
+					"daily": {
+						"1": [
+							"{@spell prismatic spray}"
+						],
+						"2": [
+							"{@spell cloudkill}",
+							"{@spell contagion}",
+							"{@spell haste}"
+						],
+						"3": [
+							"{@spell darkness}",
+							"{@spell dragon's breath|XGE}",
+							"{@spell fear}",
+							"{@spell suggestion}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Kaal Naag has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Ophidiophobia Aura",
+					"entries": [
+						"Any creature of the Kaal Naag's choice, other than a snake or a yuan-ti, that starts its turn within 30 feet of the anathema must succeed on a {@dc 19} Wisdom saving throw or become {@condition frightened} of snakes and yuan-ti. A {@condition frightened} target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to Kaal Naag's aura for the next 24 hours."
+					]
+				},
+				{
+					"name": "Six Heads",
+					"entries": [
+						"The anathema has advantage on saves against being {@condition blinded}, {@condition charmed}, {@condition deafened}, {@condition frightened}, {@condition stunned}, or knocked {@condition unconscious}.",
+						"Whenever Kaal Naag takes 40 or more damage in a single turn, one of its heads dies, and Kaal Naag is forced to spend a legendary action immediately to transform into the Hydra Form. If there are not enough Legendary Actions left for the round, then Kaal Naag must spend his action transforming to Hydra Form on his next turn.",
+						"If all its heads die, Kaal Naag dies.",
+						"In Hydra form, Kaal Naag grows two heads for each of its heads at the end of its turn that died since its last turn, unless it has taken psychic damage since its last turn. Kaal Naag regains 25 hit points for each head regrown in this way."
+					]
+				},
+				{
+					"name": "Bloodseed's Life Vein",
+					"entries": [
+						"If Kaal Naag hasn't lost any head or taken psychic damage since its last turn, the Bloodseed regenerate kaal naag's health by 20 hit points. "
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack (Anathema Form Only)",
+					"entries": [
+						"Kaal Naag makes two Claw attacks and one Flurry of Bites attack."
+					]
+				},
+				{
+					"name": "Claw (Anathema Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 10 ft., one target. {@h}14 ({@damage 2d6 + 7}) slashing damage."
+					]
+				},
+				{
+					"name": "Flurry of Bites (Anathema Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 10 ft., one creature. {@h}28 ({@damage 6d6 + 7}) piercing damage plus 14 ({@damage 4d6}) poison damage."
+					]
+				},
+				{
+					"name": "Constrict (Hydra Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 15 ft., one Large or smaller creature. {@h}17 ({@damage 3d6 + 7}) bludgeoning damage plus 7 ({@damage 2d6}) acid damage, and the target is {@condition grappled} (escape {@dc 17}). Until this grapple ends, the target is {@condition restrained}, and it takes 17 ({@damage 3d6 + 7}) bludgeoning damage plus 7 ({@damage 2d6}) acid damage at the start of each of its turns. The anathema can constrict only one creature at a time."
+					]
+				},
+				{
+					"name": "Bite. (Hydra Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit, reach 15 ft., one target. {@h}7 ({@damage 1d6 + 7}) piercing damage, and the target must make on a {@dc 16} Constitution saving throw, taking 7 ({@damage 2d6}) poison damage on a failed save, or half as much damage on a successful one.",
+						"Kaal Naag makes as many bite attacks as it has heads."
+					]
+				},
+				{
+					"name": "Change Shape",
+					"entries": [
+						"Kaal Naag transforms into Hydra Form when in Anathema Form or vice versa."
+					]
+				}
+			],
+			"environment": [
+				"desert",
+				"forest",
+				"underdark"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "http://localhost/audio/bestiary/yuan-ti-anathema.mp3"
+			},
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Shapechanger"
+			],
+			"languageTags": [
+				"AB",
+				"C",
+				"DR",
+				"U"
+			],
+			"spellcastingTags": [
+				"F"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"frightened",
+				"grappled",
+				"restrained"
+			],
+			"conditionInflictSpell": [
+				"charmed",
+				"frightened",
+				"restrained"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"token": {
+				"name": "Yuan-ti Anathema",
+				"source": "MPMM"
+			},
+			"fluff": {
+				"name": "Yuan-ti Anathema",
+				"source": "MPMM",
+				"entries": [
+					"As part of their quest for godhood, a yuan-ti abomination might perform a ritual that, if successful, transforms them into an even greater form: a yuan-ti anathema. This ritual demands the sacrifice of hundreds of snakes and requires the abomination to bathe in the blood of their enemies. The transformation is quick but painful.",
+					"Anathemas consider themselves demigods on the path to greater divinity. They demand obeisance from weaker creatures and use every resource at their disposal to war against neighbors, seeking the captives, sacrifices, glory, and riches the anathemas believe they need to achieve true divinity.",
+					"Anathemas don't age, allowing them to pursue their goals until the end of days. Truly powerful ones might rule multiple yuan-ti cities and bring entire regions under their control."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MPMM/Yuan-ti Anathema.webp"
+						},
+						"credit": "Dave Dorman"
+					}
+				]
+			},
+			"save": {
+				"cha": "+11",
+				"con": "+10"
+			},
+			"skill": {
+				"stealth": "+7",
+				"perception": "+16",
+				"intimidation": "+11"
+			},
+			"reaction": [
+				{
+					"name": "Reactive Heads (Anathema Form Only)",
+					"entries": [
+						"For each head Kaal Naag has beyond one, it gets an extra reaction that can be used only for opportunity attacks using the Bite attack. Range: 5 feet."
+					]
+				},
+				{
+					"name": "Reactive Heads. (Hydra Form Only)",
+					"entries": [
+						"For each head Kaal Naag has beyond one, it gets an extra reaction that can be used only for opportunity attacks using the Bite attack. Range: 15 feet."
+					]
+				}
+			],
+			"legendary": [
+				{
+					"name": "Slither Away",
+					"entries": [
+						"Kaal Naag moves a distance equal to its full speed without provoking opportunity attacks."
+					]
+				},
+				{
+					"name": "Tail Strike (Anathema Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit. reach 10 ft., one creature. {@h}16 ({@damage 2d8 + 7}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Poison Spray (Anathema Form Only) (Costs 2 Actions)",
+					"entries": [
+						"Kaal Naag casts {@spell Poison Spray} using one of its heads to blow on a target {@dc 19}. On a fail, the target takes {@damage 3d12} poison damage."
+					]
+				},
+				{
+					"name": "Change Shape (Anathema Form Only) (Costs 2 Action)",
+					"entries": [
+						"Kaal Naag transforms into Hydra Form when it loses 1 or more heads. If there are not enough Legendary Actions left for the round, then Kaal Naag must spend his action transforming to Hydra Form on his next turn."
+					]
+				},
+				{
+					"name": "Tail Strike (Hydra Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit. reach 15 ft., one creature. {@h}20 ({@damage 3d8 + 7}) bludgeoning damage."
+					]
+				}
+			],
+			"shortName": true,
+			"legendaryHeader": [
+				"Kaal Naag can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The Kaal Naag regains spent legendary actions at the start of its turn."
+			],
+			"legendaryGroup": {
+				"name": "Kaal Naag",
+				"source": "JaysHomebrewRulesandMonsters"
+			},
+			"isNamedCreature": true,
+			"bonus": [
+				{
+					"name": "Tail Strike (Anathema Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 14} to hit. reach 10 ft., one creature. {@h}16 ({@damage 2d8 + 7}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Change Shape (Hydra Form Only)",
+					"entries": [
+						"Kaal Naag must transform to Anathema form at the end of its turn that Kaal Naag starts in Hydra Form. Kaal Naag must not take any other bonus action during this turn. "
+					]
+				}
+			],
+			"damageTags": [
+				"A",
+				"B",
+				"I",
+				"P",
+				"S"
+			],
+			"damageTagsSpell": [
+				"A",
+				"C",
+				"F",
+				"I",
+				"L"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"wisdom"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"dexterity",
+				"wisdom"
+			]
+		}
+	],
+	"legendaryGroup": [],
+	"spell": [],
+	"item": []
+}
